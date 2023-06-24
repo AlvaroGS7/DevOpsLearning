@@ -3,9 +3,13 @@
 ![enter image description here](https://ibagroup.kz/wp-content/uploads/2020/06/banner_1300-357_DevOps.png)
 ## INDEX
 **1.-** [General Good Practices](#general)
+
 **2.-** [Azure Cloud](#azcloud)
+
 **3.-** [Amazon Web Services Cloud](#awscloud)
+
 **4.-** [Google Cloud Platform](#googlecloud)
+
 =======
 ﻿## DevOps Best Practices
 **This is just a best practice compilation made by Álvaro González. Some of the most important ones could be missing but I've tried to have most of them.

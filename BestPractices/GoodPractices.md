@@ -10,7 +10,7 @@
 
 **4.-** [Google Cloud Platform](#googlecloud)
 
-## General Good Practices {#general}
+## General Good Practices
  - Give your resources and objects **descriptive and useful names** so they are easy to **identify** in the 	environment.
  - The DevOps team and devs should **work together to build the original pipeline**.
  -   **DO NOT EXPOSE** (If you do, is always better with secrets and vars, not in plain text):

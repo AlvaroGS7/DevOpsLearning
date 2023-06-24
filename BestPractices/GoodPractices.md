@@ -3,13 +3,13 @@
 **This is just a best practice compilation made by Álvaro González. Some of the most important ones could be missing but I have tried to have most of them.
 ![General DevOps IMG](https://ibagroup.kz/wp-content/uploads/2020/06/banner_1300-357_DevOps.png)
 ## INDEX
-**1.-** [General Good Practices](#general)
+**1.-** [General Good Practices](#general-good-practices)
 
-**2.-** [Azure Cloud](#azcloud)
+**2.-** [Azure Cloud](#azure-cloud)
 
-**3.-** [Amazon Web Services Cloud](#awscloud)
+**3.-** [Amazon Web Services Cloud](#amazon-web-services)
 
-**4.-** [Google Cloud Platform](#googlecloud)
+**4.-** [Google Cloud Platform](#google-cloud-platform)
 
 **5.-** [Ansible](#ansible)
 

@@ -10,10 +10,6 @@
 
 **4.-** [Google Cloud Platform](#googlecloud)
 
-﻿## DevOps Best Practices
-**This is just a best practice compilation made by Álvaro González. Some of the most important ones could be missing but I've tried to have most of them.
-![enter image description here](https://w7.pngwing.com/pngs/401/951/png-transparent-devops-software-developer-agile-software-development-software-testing-puppet-icon-devops-logo-text-logo-engineering.png)
-
 ## General Good Practices {#general}
  - Give your resources and objects **descriptive and useful names** so they are easy to **identify** in the 	environment.
  - The DevOps team and devs should **work together to build the original pipeline**.

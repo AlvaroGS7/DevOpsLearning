@@ -2,12 +2,22 @@
 **This is just a best practice compilation made by Álvaro González. Some of the most important ones could be missing but I have tried to have most of them.
 ![enter image description here](https://ibagroup.kz/wp-content/uploads/2020/06/banner_1300-357_DevOps.png)
 ## INDEX
+<<<<<<< HEAD
 **1.-** [General Good Practices](#general-good-practices)
 **2.-** [Azure Cloud](#azure-cloud)
 **3.-** [Amazon Web Services Cloud](#amazon-web-services-cloud)
 **4.-** [Google Cloud Platform](#google-cloud-platform)
+=======
+**1.-** [General Good Practices](#general)
+>>>>>>> 7cac81324765f0004c24751b274eba5e4a16a432
 
-## General Good Practices {#general}
+**2.-** [Azure Cloud](#azcloud)
+
+**3.-** [Amazon Web Services Cloud](#awscloud)
+
+**4.-** [Google Cloud Platform](#googlecloud)
+
+## General Good Practices
  - Give your resources and objects **descriptive and useful names** so they are easy to **identify** in the 	environment.
  - The DevOps team and devs should **work together to build the original pipeline**.
  -   **DO NOT EXPOSE** (If you do, is always better with secrets and vars, not in plain text):

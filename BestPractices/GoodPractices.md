@@ -1,6 +1,6 @@
 ﻿## Good Practices Compilation
 **This is just a best practice compilation made by Álvaro González. Some of the most important ones could be missing but I have tried to have most of them.
-![enter image description here](https://ibagroup.kz/wp-content/uploads/2020/06/banner_1300-357_DevOps.png)
+![General DevOps IMG](https://ibagroup.kz/wp-content/uploads/2020/06/banner_1300-357_DevOps.png)
 ## INDEX
 **1.-** [General Good Practices](#general)
 
@@ -28,7 +28,7 @@
 	 - You can use tools like *Google Docs, Google Drive*, or third-party documentation platforms.
 
 ## Azure Cloud
-![enter image description here](https://www.evozon.com/wp-content/uploads/2017/05/Azure-Banner.png)
+![AZ Cloud IMG](https://www.evozon.com/wp-content/uploads/2017/05/Azure-Banner.png)
  - Your code should create **all the items within a resource.**
  - The goal of your code should be that you can **compile and run without any prerequisites**.
  - **CI/CD**
@@ -45,7 +45,7 @@
  - Regularly **review and improve** your pipelines and processes.
 
 ## Amazon Web Services Cloud
-![enter image description here](https://tudip.com/wp-content/uploads/2019/01/awsBanner.jpg)
+![AWS Cloud IMG](https://tudip.com/wp-content/uploads/2019/01/awsBanner.jpg)
 
  - **Use a configuration management tool** to define and provision your infrastructure resources programmatically.
 	 - You can use *AWS CloudFormation or AWS CDK.*
@@ -66,7 +66,7 @@
 	 - You can use *AWS Cost Explorer and AWS Budgets* to monitor and control your expenses. You can also use *AWS Reserved Instances* for predictable workloads.
 
 ## Google Cloud Platform
-![enter image description here](https://blog.runcloud.io/wp-content/uploads/2020/06/runcloud-how-to-setup-google-cloud-platform-single-720x183.png)
+![Google Cloud IMG](https://d3iux33l8x59j6.cloudfront.net/imagenes/noticias/google-cloud-banner.jpg)
 
  - **Define and provision your infrastructure resources programmatically.** This enables repeatability, version control, and easier management of your infrastructure.
 	 - You can use utilities like *Google Cloud Deployment Manager or Terraform*.

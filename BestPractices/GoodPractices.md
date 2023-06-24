@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ﻿## Good Practices Compilation
 **This is just a best practice compilation made by Álvaro González. Some of the most important ones could be missing but I have tried to have most of them.
 ![enter image description here](https://ibagroup.kz/wp-content/uploads/2020/06/banner_1300-357_DevOps.png)

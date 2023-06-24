@@ -1,5 +1,5 @@
 ﻿## DevOps Best Practices
-**This is just a best practice compilation made by Álvaro González. Some of the most important ones could be missing but I have tried to have most of them.
+**This is just a best practice compilation made by Álvaro González. Some of the most important ones could be missing but I've tried to have most of them.
 ![enter image description here](https://w7.pngwing.com/pngs/401/951/png-transparent-devops-software-developer-agile-software-development-software-testing-puppet-icon-devops-logo-text-logo-engineering.png)
 
 ## General Good Practices

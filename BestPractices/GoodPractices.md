@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿## Good Practices Compilation
 **This is just a best practice compilation made by Álvaro González. Some of the most important ones could be missing but I have tried to have most of them.
 ![enter image description here](https://ibagroup.kz/wp-content/uploads/2020/06/banner_1300-357_DevOps.png)
@@ -6,6 +7,11 @@
 **2.-** [Azure Cloud](#azcloud)
 **3.-** [Amazon Web Services Cloud](#awscloud)
 **4.-** [Google Cloud Platform](#googlecloud)
+=======
+﻿## DevOps Best Practices
+**This is just a best practice compilation made by Álvaro González. Some of the most important ones could be missing but I've tried to have most of them.
+![enter image description here](https://w7.pngwing.com/pngs/401/951/png-transparent-devops-software-developer-agile-software-development-software-testing-puppet-icon-devops-logo-text-logo-engineering.png)
+>>>>>>> 065a4728df53992c348d6192cf157d10b563d223
 
 ## General Good Practices {#general}
  - Give your resources and objects **descriptive and useful names** so they are easy to **identify** in the 	environment.

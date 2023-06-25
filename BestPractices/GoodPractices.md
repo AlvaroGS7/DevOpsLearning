@@ -167,7 +167,7 @@
 ## Helm
 ![Helm IMG](https://www.adictosaltrabajo.com/wp-content/uploads/2020/05/Captura-de-pantalla-2020-05-08-a-las-14.24.42.png)
  - **Organize your charts** using a logical directory structure. Split your templates, values, and helper files into separate directories for better maintainability. The directory structure should look like this:
-![enter image description here](https://i.imgur.com/NIiTTyx.png)
+![enter image description here](https://i.imgur.com/CWH4pl8.png)
  - **Use subcharts for reusable components.**
  - **Chart names must be lower case letters and numbers.** Words _may_ be separated with dashes (-).
  - **Specify dependencies** in your `requirements.yaml` file to ensure that all necessary components are installed.
@@ -223,7 +223,7 @@
  - **Assign meaningful tags to your resources** for better organization, cost allocation, and resource management.
  - **Keep your Terraform provider versions up to date.**
  - Follow a good terraform structure(Environments are your terraform Deployments and all the modules in a separate folder). Your terraform folder should look like this:
-![enter image description here](https://www.stenic.io/blog/images/terraform-project-structure.png)
+![enter image description here](https://i.imgur.com/G9lXpVe.png)
  - You can look for the **terraform documentation** [here](https://developer.hashicorp.com/terraform/docs).
  
 

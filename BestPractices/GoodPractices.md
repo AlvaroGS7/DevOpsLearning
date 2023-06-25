@@ -237,7 +237,7 @@
  - You can find a good b**ash documentation** here: https://devdocs.io/bash/
 
 ## YAML
-![YAML IMG](https://static-00.iconduck.com/assets.00/yaml-alt2-icon-2048x919-qzy4b0o7.png)
+![YAML IMG](https://ucarecdn.com/58b00b7f-42ac-4a85-8e5b-b30dcb015a8e/-/crop/1024x380/0,306/-/preview/)
  - Use **two spaces for each level of indentation** (never use tabs).
  - **Use a consistent format for lists and dictionaries.** For lists, use a hyphen followed by a space ("- item") for each element. For dictionaries, use key-value pairs with a colon and a space ("key: value").
  - **Use the flow style** (using square brackets [ ] for lists and curly braces { } for dictionaries) for simple structures when possible.

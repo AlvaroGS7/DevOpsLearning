@@ -46,7 +46,9 @@
 	 - You can use tools like *Google Docs, Google Drive*, or third-party documentation platforms.
 
 <details>
-<summary>## Azure Cloud</summary>
+<summary>Azure Cloud</summary>
+
+## Azure Cloud
 
 ![AZ Cloud IMG](https://www.evozon.com/wp-content/uploads/2017/05/Azure-Banner.png)
  - Your code should create **all the items within a resource.**

@@ -1,28 +1,34 @@
 ﻿
 
+
 ## Good Practices Compilation
-*This is just a best practice compilation made by **Álvaro González**. Some of the most important ones could be missing but I have tried to have most of them.*
+*This is just a best practice compilation made by **Álvaro González**. Some of the most important ones could be missing but I've tried to have most of them.*
 
 ![General DevOps IMG](https://ibagroup.kz/wp-content/uploads/2020/06/banner_1300-357_DevOps.png)
 ## INDEX
 **1.-** [General Good Practices](#general-good-practices)
 
-**2.-** [Azure Cloud](#azure-cloud)
+**2.-** [Cloud](#Cloud)
 
-**3.-** [Amazon Web Services Cloud](#amazon-web-services)
+ - **2.1 -** [Azure Cloud](#azure-cloud)
+ - **2.2 -** [Amazon Web Services Cloud](#amazon-web-services)
+ - **2.3 -** [Google Cloud Platform](#google-cloud-platform)
 
-**4.-** [Google Cloud Platform](#google-cloud-platform)
+**3.-** [Software](#Software)
+ - **3.1 -** [Ansible](#ansible)
+ - **3.2 -** [Docker](#docker)
+ - **3.3 -** [Kubernetes](#kubernetes)
+ - **3.4 -** [Helm](#helm)
+ - **3.5 -** [Prometheus](#prometheus)
+ - **3.6 -** [Grafana](#grafana)
 
-**5.-** [Ansible](#ansible)
+**4.-** [Scripts](#Scripts)
 
-**6.-** [Docker](#docker)
+ - **4.1 -** [Python](#Python)
+ - **4.2 -** [Shell](#Shell)
+ - **4.3 -** [YAML](#YAML)
 
-**7.-** [Kubernetes](#kubernetes)
-
-**8.-** [Helm](#helm)
-
-**9.-** [Prometheus](#prometheus)
-
+# CLOUD
 
 ## General Good Practices
  - Give your resources and objects **descriptive and useful names** so they are easy to **identify** in the 	environment.
@@ -102,6 +108,8 @@
 	 - Use services like *Google Cloud Billing API and Google Cloud Cost Management* tools.
  - **Use the official documentation.** Here's the official link: https://cloud.google.com/docs?hl=es
 
+# Software 
+
 ## Ansible
 ![Ansible IMG](https://files.readme.io/4179edf-Cloudsmith-Integrations-Banner-Ansible.png)
 
@@ -163,7 +171,6 @@
 ![enter image description here](https://i.imgur.com/NIiTTyx.png)
  - **Use subcharts for reusable components.**
  - **Chart names must be lower case letters and numbers.** Words _may_ be separated with dashes (-).
- - YAML files should be **indented using _two spaces_** (and never tabs).
  - **Specify dependencies** in your `requirements.yaml` file to ensure that all necessary components are installed.
  - **Use separate values files for different environments** (such as development, staging, and production) to manage configuration values.
  - **Make your charts configurable** by defining parameters in the `values.yaml` file.
@@ -204,4 +211,39 @@
 	 - User dashboards: https://grafana.com/grafana/dashboards/
 	 - Grafana documentation: https://grafana.com/docs/grafana/latest/
 	 - Forums: https://community.grafana.com
+
+# Scripts
+## Python
+![Python IMG](https://michaelwashburnjr.com/hubfs/Imported_Blog_Media/python.jpg)
+
+ - **Stick to the guidelines outlined in PEP 8** (Python Enhancement Proposal 8), which provides recommendations for code formatting, naming conventions, and code organization.
+ - **Choose descriptive names** for variables, functions, classes, and modules.
+ - Use `snake_case` or `CamelCase`.
+ - **Include docstrings and comments** in your functions, classes, and modules to document their purpose.
+ - **Break your code into modular and reusable functions or classes.**
+ - **Use try-except blocks** to catch and handle exceptions.
+ - Use **built-in language features and libraries** for optimal performance.
+ - **Follow DRY** (Don't Repeat Yourself) Principle. You can get more info about this [here](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself).
+ - **Use virtual environments** (e.g., virtualenv, venv) to create isolated environments for your Python projects.
+ - You can find the **official python doc** here: https://docs.python.org/3/
+
+## Shell
+![Linux IMG](https://adminscriptbank.files.wordpress.com/2016/09/banner_linux.png)
+ - **Start your script with a shebang line** (e.g., #!/bin/bash) to specify the shell interpreter to use.
+ - **When referencing variables, double quote them** (e.g., "$variable").
+ - **Escape special characters** (e.g., $, `, ") when required to avoid unexpected behavior.
+ - **Use comments** to explain the purpose and logic of your code.
+ - **Validate and sanitize user input** to ensure it meets the required criteria.
+ - **Break down your script into smaller functions** to encapsulate reusable code.
+ - **Break your script into multiple files** or modules to improve readability and maintainability.
+ - You can find a good b**ash documentation** here: https://devdocs.io/bash/
+
+## YAML
+![YAML IMG](https://static-00.iconduck.com/assets.00/yaml-alt2-icon-2048x919-qzy4b0o7.png)
+ - Use **two spaces for each level of indentation** (never use tabs).
+ - **Use a consistent format for lists and dictionaries.** For lists, use a hyphen followed by a space ("- item") for each element. For dictionaries, use key-value pairs with a colon and a space ("key: value").
+ - **Use the flow style** (using square brackets [ ] for lists and curly braces { } for dictionaries) for simple structures when possible.
+ - **If a line becomes too long, break it** into multiple lines to enhance readability.
+ - **Use anchors (&) and aliases (*) to reuse** and reference common data structures or values within your YAML file.
+ - **Avoid excessive nesting of data structures.**
 

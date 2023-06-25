@@ -1,21 +1,28 @@
 ﻿
+
 ## Good Practices Compilation
-**This is just a best practice compilation made by Álvaro González. Some of the most important ones could be missing but I have tried to have most of them.
+*This is just a best practice compilation made by **Álvaro González**. Some of the most important ones could be missing but I have tried to have most of them.*
+
 ![General DevOps IMG](https://ibagroup.kz/wp-content/uploads/2020/06/banner_1300-357_DevOps.png)
 ## INDEX
-**1.-** [General Good Practices](#general)
+**1.-** [General Good Practices](#general-good-practices)
 
-**2.-** [Azure Cloud](#azcloud)
+**2.-** [Azure Cloud](#azure-cloud)
 
-**3.-** [Amazon Web Services Cloud](#awscloud)
+**3.-** [Amazon Web Services Cloud](#amazon-web-services)
 
-**4.-** [Google Cloud Platform](#googlecloud)
+**4.-** [Google Cloud Platform](#google-cloud-platform)
 
 **5.-** [Ansible](#ansible)
 
 **6.-** [Docker](#docker)
 
 **7.-** [Kubernetes](#kubernetes)
+
+**8.-** [Helm](#helm)
+
+**9.-** [Prometheus](#prometheus)
+
 
 ## General Good Practices
  - Give your resources and objects **descriptive and useful names** so they are easy to **identify** in the 	environment.
@@ -50,6 +57,7 @@
  - Implement **monitoring and logging solutions** to gain visibility into your applications and infrastructure. 
 	 - Here you can use Azure Monitor or Application Insights.
  - Regularly **review and improve** your pipelines and processes.
+ - Official Documentation Link: https://learn.microsoft.com/en-us/azure/?product=popular
 
 ## Amazon Web Services Cloud
 ![AWS Cloud IMG](https://tudip.com/wp-content/uploads/2019/01/awsBanner.jpg)
@@ -71,6 +79,7 @@
 	 - Use services like *AWS Backup, AWS S3 for backups, and AWS Glacier* for long-term archiving.
  - **Optimize your resource usage and costs** by rightsizing your infrastructure, utilizing cost-effective instance types, and leveraging services
 	 - You can use *AWS Cost Explorer and AWS Budgets* to monitor and control your expenses. You can also use *AWS Reserved Instances* for predictable workloads.
+ - Follow the official documentation. You can find it here: https://docs.aws.amazon.com
 
 ## Google Cloud Platform
 ![Google Cloud IMG](https://d3iux33l8x59j6.cloudfront.net/imagenes/noticias/google-cloud-banner.jpg)
@@ -91,6 +100,7 @@
 	 - Use services like *Google Cloud Storage* for backups, *Google Cloud SQL*  for managed relational databases with built-in replication and backups, and  *Google Cloud Spanner* for globally distributed relational databases.
  - **Optimize your resource usage and costs** by rightsizing your infrastructure.
 	 - Use services like *Google Cloud Billing API and Google Cloud Cost Management* tools.
+ - **Use the official documentation.** Here's the official link: https://cloud.google.com/docs?hl=es
 
 ## Ansible
 ![Ansible IMG](https://files.readme.io/4179edf-Cloudsmith-Integrations-Banner-Ansible.png)
@@ -107,6 +117,7 @@
  - **Maintain clear and comprehensive documentation for your playbooks**, including their purpose, usage instructions, variable definitions, and any specific requirements.
  - It is suggested that you define groups based on purpose of the **host** (roles) and also **geography** or datacenter location (if applicable)
  - **Using the "state" parameter.** The `state` parameter is optional to a lot of modules. Whether `state=present` or `state=absent`, it’s always best to leave that parameter in your playbooks to make it clear.
+ - Use official documentation. You can find it here: https://docs.ansible.com
 
 ## Docker
 ![Docker IMG](https://francofernando.com/assets/img/blog/frameworks/docker/docker.png)
@@ -127,6 +138,9 @@
  - **Store persistent data outside of containers** by using *Docker volumes or bind mounts.*
  - **Include only the necessary dependencies** in your container.
  - **Implement monitoring and logging** solutions for your Docker containers.
+ - Use official documentation and user shared images:
+	 - Documentation (Docker Docs): https://docs.docker.com
+	 - Docker Hub: https://hub.docker.com
  ## Kubernetes
  ![enter image description here](https://codefresh.io/wp-content/uploads/2017/02/Intro-to-Kubernetes-blog-b-2.png)
  
@@ -142,4 +156,52 @@
  - **Implement monitoring and observability solutions** to gain insights into your Kubernetes cluster.
 	 - Here, you can use tools like Prometheus and Grafana (i'll give best practices for them later).
  - **Keep your Kubernetes cluster up to date** by regularly applying updates and patches.
+ - **Follow the official documentation**, here's the link: https://kubernetes.io/docs/home/
+## Helm
+![Helm IMG](https://www.adictosaltrabajo.com/wp-content/uploads/2020/05/Captura-de-pantalla-2020-05-08-a-las-14.24.42.png)
+ - **Organize your charts** using a logical directory structure. Split your templates, values, and helper files into separate directories for better maintainability. The directory structure should look like this:
+![enter image description here](https://i.imgur.com/NIiTTyx.png)
+ - **Use subcharts for reusable components.**
+ - **Chart names must be lower case letters and numbers.** Words _may_ be separated with dashes (-).
+ - YAML files should be **indented using _two spaces_** (and never tabs).
+ - **Specify dependencies** in your `requirements.yaml` file to ensure that all necessary components are installed.
+ - **Use separate values files for different environments** (such as development, staging, and production) to manage configuration values.
+ - **Make your charts configurable** by defining parameters in the `values.yaml` file.
+ - **Use Helm's built-in linting feature** (`helm lint`) to check for syntax errors and best practices.
+ - **Include comprehensive documentation in your charts.** You can do this using comments, separate files or external tools.
+ - **Assign versions to your charts** and follow semantic versioning conventions.
+ - **Use official documentation and user shared charts**:
+	 - Documentation: https://helm.sh/docs/
+	 - Artifact Hub: https://artifacthub.io
+
+## Prometheus
+![Prometheus IMG](https://www.cncf.io/wp-content/uploads/2020/08/prometheusBanner-1.png)
+
+ - **Follow a consistent and descriptive naming convention** for metrics.
+ - **Avoid instrumenting unnecessary or excessive metrics.**
+ - **Use labels** to add better filtering in your metrics.
+ - Monitor **infrastructure-level metrics** (CPU, memory, disk usage) and **application-specific metrics** (request latency, error rates, business-specific metrics).
+ - **Avoid setting overly sensitive alerts** that can lead to alert fatigue.
+ - **Use Grafana, a popular data visualization tool**, to create informative and visually appealing dashboards *(Grafana's best practices explained in the next section)*.
+ - **Deploy Prometheus in a highly available way** to ensure resilience and reliability. For example, you can use replica sets, load balancing, and redundant storage.
+ - **Monitor the health and performance** of your Prometheus servers using metrics exposed by Prometheus itself.
+ - **Track failures and total requests**, not failures and successes.
+ - You can find the official documentation here: https://prometheus.io/docs/introduction/overview/
+## Grafana
+![Grafana IMG](https://pandorafms.com/blog/wp-content/uploads/2019/02/que-es-grafana-1.png)
+ - Before creating dashboards, **define the purpose, audience, and specific metrics** you want to display.
+ - Give your dashboards, panels, and variables **descriptive names**.
+ - **Minimize the number of queries executed per panel.**
+ - **Utilize variables in your dashboards** to make them more dynamic and adaptable.
+ - **Utilize Grafana's templating feature** to create reusable dashboard templates.
+ - Establish and follow **consistent visual styles** across your dashboards.
+ - **Use annotations**, since they provide contextual information within your dashboards.
+ - **Set up Grafana's alerting feature** to monitor your metrics and trigger notifications when predefined conditions are met.
+ - **Implement appropriate access controls and authentication mechanisms**.
+ - **Regularly back up** your Grafana dashboards and their associated configuration files.
+ - **Monitor the health and performance** of your Grafana instance itself.
+ - **Use Grafana community's resources**, including official documentation, forums, and dashboards shared by other users. You can find them here:
+	 - User dashboards: https://grafana.com/grafana/dashboards/
+	 - Grafana documentation: https://grafana.com/docs/grafana/latest/
+	 - Forums: https://community.grafana.com
 

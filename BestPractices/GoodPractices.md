@@ -44,10 +44,6 @@
  - Developers are responsible for **monitoring and alerting**
  -  **Maintain up-to-date documentation** to ensure proper knowledge sharing and collaboration within your team.
 	 - You can use tools like *Google Docs, Google Drive*, or third-party documentation platforms.
-
-<details>
-<summary>Azure Cloud</summary>
-
 ## Azure Cloud
 
 ![AZ Cloud IMG](https://www.evozon.com/wp-content/uploads/2017/05/Azure-Banner.png)
@@ -67,7 +63,6 @@
  - Regularly **review and improve** your pipelines and processes.
  - Official Documentation Link: https://learn.microsoft.com/en-us/azure/?product=popular
 
-</details>
 ## Amazon Web Services Cloud
 ![AWS Cloud IMG](https://tudip.com/wp-content/uploads/2019/01/awsBanner.jpg)
 

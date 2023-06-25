@@ -23,6 +23,8 @@
 
 **9.-** [Prometheus](#prometheus)
 
+**10.-** [Grafana](#grafana)
+
 
 ## General Good Practices
  - Give your resources and objects **descriptive and useful names** so they are easy to **identify** in the 	environment.

@@ -28,13 +28,6 @@
  - **4.2 -** [Shell](#Shell)
  - **4.3 -** [YAML](#YAML)
 
-<<<<<<< HEAD
-# CLOUD
-=======
-**10.-** [Grafana](#grafana)
-
->>>>>>> 7f5a411ece71a9c6e801b825d35ded5c3044fedd
-
 ## General Good Practices
  - Give your resources and objects **descriptive and useful names** so they are easy to **identify** in the 	environment.
  - The DevOps team and devs should **work together to build the original pipeline**.

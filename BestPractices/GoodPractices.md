@@ -1,6 +1,7 @@
 ﻿
 
 
+
 ## Good Practices Compilation
 *This is just a best practice compilation made by **Álvaro González**. Some of the most important ones could be missing but I've tried to have most of them.*
 
@@ -28,13 +29,6 @@
  - **4.2 -** [Shell](#Shell)
  - **4.3 -** [YAML](#YAML)
 
-<<<<<<< HEAD
-# CLOUD
-=======
-**10.-** [Grafana](#grafana)
-
->>>>>>> 7f5a411ece71a9c6e801b825d35ded5c3044fedd
-
 ## General Good Practices
  - Give your resources and objects **descriptive and useful names** so they are easy to **identify** in the 	environment.
  - The DevOps team and devs should **work together to build the original pipeline**.
@@ -51,8 +45,8 @@
  - Developers are responsible for **monitoring and alerting**
  -  **Maintain up-to-date documentation** to ensure proper knowledge sharing and collaboration within your team.
 	 - You can use tools like *Google Docs, Google Drive*, or third-party documentation platforms.
-
 ## Azure Cloud
+
 ![AZ Cloud IMG](https://www.evozon.com/wp-content/uploads/2017/05/Azure-Banner.png)
  - Your code should create **all the items within a resource.**
  - The goal of your code should be that you can **compile and run without any prerequisites**.
@@ -217,6 +211,22 @@
 	 - Grafana documentation: https://grafana.com/docs/grafana/latest/
 	 - Forums: https://community.grafana.com
 
+## Terraform
+![Terraform IMG](https://www.turbogeek.co.uk/wp-content/uploads/2018/11/hashicorp-terraform-banner.png)
+
+ - **Use Terraform modules** to encapsulate reusable pieces of infrastructure configuration.
+ - **Make your modules flexible by using variables and outputs.**
+ - **Configure a backend to store Terraform state files remotely.** 
+	 - Backends like *Amazon S3, Azure Blob Storage, or HashiCorp Terraform Cloud* provide secure storage and collaboration features.
+ - **Always run** `terraform plan` before applying changes to your infrastructure.
+ - **Integrate Terraform into your CI/CD pipeline.**
+ - **Assign meaningful tags to your resources** for better organization, cost allocation, and resource management.
+ - **Keep your Terraform provider versions up to date.**
+ - Follow a good terraform structure(Environments are your terraform Deployments and all the modules in a separate folder). Your terraform folder should look like this:
+![enter image description here](https://www.stenic.io/blog/images/terraform-project-structure.png)
+ - You can look for the **terraform documentation** [here](https://developer.hashicorp.com/terraform/docs).
+ 
+
 # Scripts
 ## Python
 ![Python IMG](https://michaelwashburnjr.com/hubfs/Imported_Blog_Media/python.jpg)
@@ -244,7 +254,7 @@
  - You can find a good b**ash documentation** here: https://devdocs.io/bash/
 
 ## YAML
-![YAML IMG](https://static-00.iconduck.com/assets.00/yaml-alt2-icon-2048x919-qzy4b0o7.png)
+![YAML IMG](https://ucarecdn.com/58b00b7f-42ac-4a85-8e5b-b30dcb015a8e/-/crop/1024x380/0,306/-/preview/)
  - Use **two spaces for each level of indentation** (never use tabs).
  - **Use a consistent format for lists and dictionaries.** For lists, use a hyphen followed by a space ("- item") for each element. For dictionaries, use key-value pairs with a colon and a space ("key: value").
  - **Use the flow style** (using square brackets [ ] for lists and curly braces { } for dictionaries) for simple structures when possible.

@@ -22,6 +22,7 @@
  - **3.4 -** [Helm](#helm)
  - **3.5 -** [Prometheus](#prometheus)
  - **3.6 -** [Grafana](#grafana)
+ - **3.7 -** [Terraform](#terraform)
 
 **4.-** [Scripts](#Scripts)
 

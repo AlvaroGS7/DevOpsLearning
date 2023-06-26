@@ -3,6 +3,6 @@
 ![DevOps Banner](https://ibagroupit.com/wp-content/uploads/2020/05/banner_1300-357_devops.png)
 
 Here's the list of directories working right now:
- - [Best Practices](/BestPractices/bestpractices.md)
+ - [Best Practices](/BestPractices/BestPractices.md)
  - [Azure](/Azure)
 

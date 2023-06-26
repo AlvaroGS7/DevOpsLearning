@@ -34,3 +34,15 @@
 In this section, I'll explain some of the most common concepts in Azure Cloud, to understand its key components and functionalities. These concepts serve as building blocks for creating and managing your cloud resources efficiently.
 
 If you need more help after reading, you can read the official doc [here](https://learn.microsoft.com/en-us/azure/?product=popular).
+
+## Active Directory
+  
+**Cloud-based identity and access management service**. Serves as a central directory for managing user identities, authentication, and authorization in services and other integrated applications. Here's some useful aspects about Azure Directory:
+ - **Single Sign-On (SSO)**, allows users to access multiple applications and services with a single set of credentials.
+ - **Application Integration**, with various cloud-based and on-premises applications, such as Microsoft 365, Azure services, Software-as-a-Service (SaaS) applications etc.
+ - **Azure AD Connect**, tool that enables synchronization of on-premises Active Directory with Azure AD.
+ - **Multi-Tenant Support**, allows organizations to manage identities and provide services to external users, such as business partners or customers.
+ - **B2B and B2C Scenarios**, Business-to-Business allows organizations to share resources with external users. Business-to-Customers enables organizations to provide identity and access management for customer.
+ - **Conditional Access**, allows organizations to enforce specific access controls based on conditions such as user location, device type, or risk level.
+ - **Security and Monitoring**, provides robust security features, including threat detection, risk-based authentication, and integration with Azure Active Directory Identity Protection.
+

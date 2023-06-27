@@ -139,5 +139,14 @@ Here's some interesting utilities:
  - **Integration with various Azure analytics services**, such as Azure Databricks, Azure Synapse Analytics (formerly SQL Data Warehouse), and Azure HDInsight.
  - **Has two generations, Gen1 and Gen2:**
 	 - Gen1 offers a distributed file system with Hadoop-compatible APIs.
-	 - Gen2 builds on top of Azure Blob Storage, providing a combination of the Hadoop Distributed File System (HDFS) and Blob storage capabilities.
+	 - Gen2 builds on top of Azure Blob Storage, providing a combination of the Hadoop Distributed File System (HDFS) and Blob storage capabilities.<br><br>
+
+## Data Bricks
+**Enables teams to collaborate and build data-driven applications**, perform big data analytics, and implement machine learning workflows. Combines Apache Spark, an open-source distributed computing system, with an optimized version of Databricks' Unified Analytics Platform.
+ - **Uses the power of Apache Spark**, a popular distributed data processing and analytics engine.
+ - **Offers a collaborative environment** that allows data engineers, data scientists, and analysts to work together seamlessly.
+ - **Provides built-in machine learning capabilities** that simplify the development and deployment of machine learning models.
+ - **Supports real-time streaming analytics** using Spark Streaming and Structured Streaming.
+ - **Has Delta Lake**, an open-source storage layer built on top of Azure Databricks.
+ - **Enables you to automate and schedule data workflows** using notebooks, jobs, and pipelines.
 

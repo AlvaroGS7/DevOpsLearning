@@ -120,4 +120,14 @@ Here's some interesting utilities:
  - D**esigned to scale horizontally**, allowing you to handle massive amounts of data and traffic.
  - **Provides  a 99.999% uptime SLA** (Service Level Agreement).
  - **Offers low latency data access.**
- - **Supports multiple APIs**, including SQL (DocumentDB), MongoDB, Cassandra, Gremlin, and Table API.
+ - **Supports multiple APIs**, including SQL (DocumentDB), MongoDB, Cassandra, Gremlin, and Table API.<br><br>
+ 
+## Data Factory
+ **Cloud-based data integration service** that allows you to orchestrate and automate the movement and transformation of data across various sources and destinations.
+ 
+ - **Enables you to connect and integrate data from various sources**, both on-premises and in the cloud.
+ - **Offers a visual interface for designing and managing data pipelines.**
+ - **Provides seamless data movement between on-premises and cloud environments.**
+ - **Supports data transformation and processing** capabilities using Azure Databricks, Azure HDInsight, and Azure Machine Learning.
+ - **Allows you to schedule and automate the execution of data pipelines.**
+

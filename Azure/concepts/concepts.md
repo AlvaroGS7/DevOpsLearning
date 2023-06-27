@@ -18,7 +18,7 @@
 - **2.10 -** [Data Lake Storage](#data-lake-storage)
 - **2.11 -** [Databricks](#databricks)
 - **2.12 -** [Event Grid](#event-grid)
-- **2.13 -** [Event Hubs](#event-hubs)
+- **2.13 -** [Event Hub](#event-hub)
 - **2.14 -** [Functions](#functions)
 - **2.15 -** [Kubernetes Service](#kubernetes-service)
 - **2.16 -** [Logic Apps](#logic-apps)
@@ -158,7 +158,7 @@ Here's some interesting utilities:
  - **Supports events of different types**, including system-defined events and custom events.
  - **Allows you to define event subscriptions and specify filtering rules** to route events to the appropriate subscribers.
  - **Guarantees at least once delivery of events to subscribers.**
- - **Can integrate with on-premises systems and other cloud providers** ,making it suitable for hybrid and multi-cloud scenarios.
+ - **Can integrate with on-premises systems and other cloud providers** ,making it suitable for hybrid and multi-cloud scenarios.<br><br>
 
 ## Event Hub
 **Highly scalable and real-time data streaming platform** designed to handle large volumes of event data from various sources and enable real-time analytics, monitoring, and data ingestion.
@@ -168,5 +168,17 @@ Here's some interesting utilities:
  - **Scales horizontally to handle high event throughput.**
  - **Provides configurable event retention periods**, allowing you to define how long event data should be stored.
  - **Uses data partitioning** to distribute event data across multiple storage units called partitions.
- - **Offers built-in geo-disaster recovery capabilities.**
+ - **Offers built-in geo-disaster recovery capabilities.**<br><br>
+
+## Functions
+**Serverless compute service** that allows developers to build and deploy small, event-driven functions that respond to various triggers, such as HTTP requests, timers, message queues, and more.
+
+ - **Follows the serverless computing model**, where you don't need to provision or manage servers or infrastructure.
+ - **Designed to be event-driven**, meaning they respond to events or triggers.
+ - **Supports multiple programming languages**, including *C#, JavaScript (Node.js), Python, PowerShell, and TypeScript.*
+ - **Provides a streamlined development experience.**
+ - **Supports a wide range of triggers and bindings.**
+ - **Can be executed in both stateful and stateless modes:**
+	 - In *stateless mode*, functions do not maintain any persistent state between invocations.
+	 - In *stateful mode*, functions can maintain their execution state across invocations.
 

@@ -148,7 +148,7 @@ Here's some interesting utilities:
  - **Provides built-in machine learning capabilities** that simplify the development and deployment of machine learning models.
  - **Supports real-time streaming analytics** using Spark Streaming and Structured Streaming.
  - **Has Delta Lake**, an open-source storage layer built on top of Azure Databricks.
- - **Enables you to automate and schedule data workflows** using notebooks, jobs, and pipelines.
+ - **Enables you to automate and schedule data workflows** using notebooks, jobs, and pipelines.<br><br>
 
 ## Event Grid
 **Eventing service that simplifies the development and management of event-driven architectures** by enabling the routing and delivery of events from various sources to interested subscribers.
@@ -159,4 +159,14 @@ Here's some interesting utilities:
  - **Allows you to define event subscriptions and specify filtering rules** to route events to the appropriate subscribers.
  - **Guarantees at least once delivery of events to subscribers.**
  - **Can integrate with on-premises systems and other cloud providers** ,making it suitable for hybrid and multi-cloud scenarios.
+
+## Event Hub
+**Highly scalable and real-time data streaming platform** designed to handle large volumes of event data from various sources and enable real-time analytics, monitoring, and data ingestion.
+
+ - **Distributed event streaming platform that enables the ingestion**, retention, and processing of event data.
+ - **Supports both event publishers and event consumers.**
+ - **Scales horizontally to handle high event throughput.**
+ - **Provides configurable event retention periods**, allowing you to define how long event data should be stored.
+ - **Uses data partitioning** to distribute event data across multiple storage units called partitions.
+ - **Offers built-in geo-disaster recovery capabilities.**
 

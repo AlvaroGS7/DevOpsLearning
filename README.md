@@ -6,5 +6,5 @@ Here's the list of directories working right now:
  - [Best Practices](/BestPractices/BestPractices.md)
  - [Azure](/Azure)
  - [Google Cloud](/GoogleCloud)
- - [AWS](/AWS)
+ - [Amazon Web Services](/AWS)
 

@@ -150,3 +150,13 @@ Here's some interesting utilities:
  - **Has Delta Lake**, an open-source storage layer built on top of Azure Databricks.
  - **Enables you to automate and schedule data workflows** using notebooks, jobs, and pipelines.
 
+## Event Grid
+**Eventing service that simplifies the development and management of event-driven architectures** by enabling the routing and delivery of events from various sources to interested subscribers.
+
+ - **Enables the implementation of event-driven architectures.**
+ - **Supports a wide range of event sources and publishers.**
+ - **Supports events of different types**, including system-defined events and custom events.
+ - **Allows you to define event subscriptions and specify filtering rules** to route events to the appropriate subscribers.
+ - **Guarantees at least once delivery of events to subscribers.**
+ - **Can integrate with on-premises systems and other cloud providers** ,making it suitable for hybrid and multi-cloud scenarios.
+

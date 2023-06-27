@@ -131,3 +131,13 @@ Here's some interesting utilities:
  - **Supports data transformation and processing** capabilities using Azure Databricks, Azure HDInsight, and Azure Machine Learning.
  - **Allows you to schedule and automate the execution of data pipelines.**
 
+## Data Lake Storage
+**Scalable and secure cloud-based storage service** designed to store and analyze massive amounts of unstructured and structured data.
+
+ - **Optimized for storing large volumes of data**, including structured, semi-structured, and unstructured data.
+ - **Can handle petabytes of data** and provide high throughput for data-intensive workloads.
+ - **Integration with various Azure analytics services**, such as Azure Databricks, Azure Synapse Analytics (formerly SQL Data Warehouse), and Azure HDInsight.
+ - **Has two generations, Gen1 and Gen2:**
+	 - Gen1 offers a distributed file system with Hadoop-compatible APIs.
+	 - Gen2 builds on top of Azure Blob Storage, providing a combination of the Hadoop Distributed File System (HDFS) and Blob storage capabilities.
+

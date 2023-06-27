@@ -18,7 +18,7 @@
 - **2.10 -** [Data Lake Storage](#data-lake-storage)
 - **2.11 -** [Databricks](#databricks)
 - **2.12 -** [Event Grid](#event-grid)
-- **2.13 -** [Event Hubs](#event-hubs)
+- **2.13 -** [Event Hub](#event-hub)
 - **2.14 -** [Functions](#functions)
 - **2.15 -** [Kubernetes Service](#kubernetes-service)
 - **2.16 -** [Logic Apps](#logic-apps)

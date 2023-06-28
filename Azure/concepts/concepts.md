@@ -111,3 +111,14 @@ Here's some interesting utilities:
  - **You can also build custom connectors for Logic Apps.**
  - **Supports the fan-out/fan-in pattern**, which enables parallel processing and aggregation of data.
 
+## Machine Learning
+**Enables you to build, deploy, and manage machine learning models at scale.** Offers a good set of tools and services to support the end-to-end machine learning lifecycle.
+
+ - **You can use Jupyter notebooks, Python scripts, or visual interfaces** like Azure Machine Learning Studio to create and experiment with machine learning models.
+ - **Includes AutoML**, a feature that automates the process of model selection and hyperparameter tuning.
+ - **Offers utilities for data preparation and feature engineering.**
+ - **You can easily train models on large datasets** using scalable compute resources.
+ - **Supports MLOps practices**, which involve applying DevOps principles to machine learning workflows.
+ - **Includes a drag-and-drop visual interface called Designer.**
+ - **Supports the *Open Neural Network Exchange (ONNX)* format**, which allows you to easily import and export models across different frameworks and platforms.
+ - **Integrates easily with Azure Databricks.**

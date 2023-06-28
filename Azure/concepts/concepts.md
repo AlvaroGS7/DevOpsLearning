@@ -91,7 +91,7 @@ You can read more about Azure App Service [here](https://learn.microsoft.com/en-
  - **Continuously monitors the health of backend servers** by periodically sending health probes.
 - **Supports URL rewriting**, allowing modification of incoming requests before forwarding them to backend servers.
 
-You can read more about Azure Application Gateway [here](https://learn.microsoft.com/en-us/azure/application-gateway/).<br>
+You can read more about Azure Application Gateway [here](https://learn.microsoft.com/en-us/azure/application-gateway/).<br><br>
 
 ## Kubernetes Service
 **Managed container orchestration service** that simplifies the deployment, management, and scaling of containerized applications using Kubernetes.
@@ -105,7 +105,7 @@ You can read more about Azure Application Gateway [here](https://learn.microsoft
  - Supports Azure Private Link, which enables you to securely access your AKS cluster over a private network connection.
  - Integrates with Azure Dev Spaces, a tool that enables developers to rapidly iterate and debug their applications running in Kubernetes.
 
-You can read more about Azure Kubernetes Service [here](https://learn.microsoft.com/en-us/azure/aks/).<br>
+You can read more about Azure Kubernetes Service [here](https://learn.microsoft.com/en-us/azure/aks/).<br><br>
 
 ## Logic Apps
 **Allows you to design and automate workflows** and integrate various systems, services, and applications together.
@@ -121,7 +121,7 @@ You can read more about Azure Kubernetes Service [here](https://learn.microsoft.
  - **You can also build custom connectors for Logic Apps.**
  - **Supports the fan-out/fan-in pattern**, which enables parallel processing and aggregation of data.
 
-You can read more about Azure Logic Apps [here](https://learn.microsoft.com/en-us/azure/logic-apps/).<br>
+You can read more about Azure Logic Apps [here](https://learn.microsoft.com/en-us/azure/logic-apps/).<br><br>
 
 ## Machine Learning
 **Enables you to build, deploy, and manage machine learning models at scale.** Offers a good set of tools and services to support the end-to-end machine learning lifecycle.
@@ -135,7 +135,7 @@ You can read more about Azure Logic Apps [here](https://learn.microsoft.com/en-u
  - **Supports the *Open Neural Network Exchange (ONNX)* format**, which allows you to easily import and export models across different frameworks and platforms.
  - **Integrates easily with Azure Databricks.**
 
-You can find more about Az Machine Learning [here](https://learn.microsoft.com/en-us/azure/machine-learning/?view=azureml-api-2).<br>
+You can find more about Az Machine Learning [here](https://learn.microsoft.com/en-us/azure/machine-learning/?view=azureml-api-2).<br><br>
 
 ## Monitor
 **Cloud-based monitoring and diagnostics service** that provides wide monitoring capabilities for Azure resources, applications, and infrastructure

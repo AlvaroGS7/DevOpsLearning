@@ -85,7 +85,7 @@ Here's some interesting utilities:
  - **Continuously monitors the health of backend servers** by periodically sending health probes.
 - **Supports URL rewriting**, allowing modification of incoming requests before forwarding them to backend servers.<br>
 
-# Kubernetes Service
+## Kubernetes Service
 **Managed container orchestration service** that simplifies the deployment, management, and scaling of containerized applications using Kubernetes.
 
  - **Allows you to deploy containerized applications** quickly and easily.
@@ -93,8 +93,21 @@ Here's some interesting utilities:
  - Ensures high availability of your applications by **distributing your workloads** across multiple nodes.
  - **Integrates with Azure Monitor**, enabling you to gain insights into the performance and health of your Kubernetes cluster and applications.
  - **You can use features like CI/CD pipelines and GitOps** to streamline your development and release processes.
- - **Supports hybrid and multi-cloud scenarios.**<br>
+ - **Supports hybrid and multi-cloud scenarios.**
+ - Supports Azure Private Link, which enables you to securely access your AKS cluster over a private network connection.
+ - Integrates with Azure Dev Spaces, a tool that enables developers to rapidly iterate and debug their applications running in Kubernetes.<br>
 
+## Logic Apps
+**Allows you to design and automate workflows** and integrate various systems, services, and applications together.
 
-
+ - **Enables you to automate processes and workflows** by visually
+   designing them using a drag-and-drop interface.
+ - **Provides a wide range of connectors** to interact with various services
+   and systems, both within Azure and outside of it.
+ - **Can be extended with custom code** using Azure Functions or Azure API Management.
+ - **Includes built-in transformations and mapping capabilities** to transform data between different formats like JSON, XML, CSV, and more.
+ - **Supports version control and deployment management** through Azure DevOps.
+ - **Offers an Integration Service Environment**, which provides a dedicated and isolated environment for running your workflows.
+ - **You can also build custom connectors for Logic Apps.**
+ - **Supports the fan-out/fan-in pattern**, which enables parallel processing and aggregation of data.
 

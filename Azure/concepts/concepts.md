@@ -150,7 +150,7 @@ You can find more about Az Machine Learning [here](https://learn.microsoft.com/e
  - **Uses a powerful query language called Kusto Query Language (KQL)**, also known as Azure Data Explorer (ADX).
  - **Has the Service Map feature** provides a visual representation of the dependencies and connections between different components of your application or service.
 
-You can find more about Az Monitor [here](https://learn.microsoft.com/en-us/azure/azure-monitor/).<br>
+You can find more about Az Monitor [here](https://learn.microsoft.com/en-us/azure/azure-monitor/).<br><br>
 
 ## Service Bus
 **A messaging service** that enables reliable communication and coordination between different applications and services running on various platforms and devices.
@@ -162,7 +162,9 @@ You can find more about Az Monitor [here](https://learn.microsoft.com/en-us/azur
  - **Provides a dead-letter queue** where messages that cannot be delivered to their intended destinations are moved.
  - **Allows messages of up to 1 MB in size.**
  - **Supports message compression.**
- - **You can schedule messages to be delivered at a specific time.**<br>
+ - **You can schedule messages to be delivered at a specific time.**
+
+You can read the full Azure Service Bus documentation [here](https://learn.microsoft.com/en-us/azure/service-bus-messaging/).<br><br>
 
 ## Sentinel
 Cloud-native **security information and event management (SIEM) service** that provides intelligent security analytics and threat intelligence to help organizations.

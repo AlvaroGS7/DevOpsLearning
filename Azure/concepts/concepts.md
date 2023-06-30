@@ -98,7 +98,10 @@ You can read more about Azure Application Gateway [here](https://learn.microsoft
  - You can **choose from a wide range of VM configurations** to meet your specific requirements.
  - **You define a pool of VMs** with specific configurations and sizes, and Azure Batch automatically provisions and manages the VMs for you.
  - **Integration with Docker**, allowing you to package your applications and dependencies into Docker containers.
- - **Easy input and output data transfer** for your jobs using Azure Storage or Azure Data Lake Storage.<br><br>
+ - **Easy input and output data transfer** for your jobs using Azure Storage or Azure Data Lake Storage.
+ 
+ You can read more about Azure Batch [here](https://learn.microsoft.com/bs-latn-ba/azure/batch/).<br><br>
+ 
 ## Cognitive Services
 **Collection of cloud-based artificial intelligence (AI) APIs and services**, designed to help developers incorporate pre-built AI capabilities into their applications without needing extensive knowledge or expertise in AI or machine learning.
  - Offers a wide array of AI capabilities, including **vision, speech, language, knowledge, and search.**
@@ -106,13 +109,19 @@ You can read more about Azure Application Gateway [here](https://learn.microsoft
  - **The speech services provide speech recognition**, text-to-speech, and speech translation capabilities.
  - **The language services encompass natural language understanding (NLU)**, natural language processing (NLP), and text analytics.
  - **The knowledge services focus on knowledge exploration and discovery**.
- - **The search services offer capabilities for web and image search**, autosuggest, spell check, and entity search.<br><br>
+ - **The search services offer capabilities for web and image search**, autosuggest, spell check, and entity search.
+
+ You can read more about Azure Cognitive Services [here](https://learn.microsoft.com/en-us/azure/cognitive-services/).<br><br>
+ 
 ## Content Delivery Network
 **Distributed network of servers strategically located around the world with the purpose to deliver web content**, such as images, videos, JavaScript files, and other static or dynamic content, to users more efficiently and quickly.
  - **Works by caching content in multiple edge servers** located closer to end users.
  - **Has a global reach** with servers distributed across various geographic locations.
  - **Provides scalability** to handle increased traffic and sudden spikes in demand.
  - Includes security features to **protect against distributed denial-of-service (DDoS) attacks**
+
+ You can read more about Azure Content Delivery Network [here](https://azure.microsoft.com/en-in/products/cdn).<br><br>
+
 ## Cosmos DB
 **Globally distributed multi-model database service** designed to provide fast and scalable access to data, ensuring high availability and low latency across the globe.
  - **Offers a globally distributed architecture**, allowing you to replicate your data across multiple Azure regions.
@@ -120,7 +129,9 @@ You can read more about Azure Application Gateway [here](https://learn.microsoft
  - D**esigned to scale horizontally**, allowing you to handle massive amounts of data and traffic.
  - **Provides  a 99.999% uptime SLA** (Service Level Agreement).
  - **Offers low latency data access.**
- - **Supports multiple APIs**, including SQL (DocumentDB), MongoDB, Cassandra, Gremlin, and Table API.<br><br>
+ - **Supports multiple APIs**, including SQL (DocumentDB), MongoDB, Cassandra, Gremlin, and Table API.
+
+ You can read more about Azure Cosmos DB [here](https://learn.microsoft.com/en-us/azure/cosmos-db/).<br><br>
  
 ## Data Factory
  **Cloud-based data integration service** that allows you to orchestrate and automate the movement and transformation of data across various sources and destinations.
@@ -130,6 +141,9 @@ You can read more about Azure Application Gateway [here](https://learn.microsoft
  - **Provides seamless data movement between on-premises and cloud environments.**
  - **Supports data transformation and processing** capabilities using Azure Databricks, Azure HDInsight, and Azure Machine Learning.
  - **Allows you to schedule and automate the execution of data pipelines.**
+
+ You can read more about Azure Data Factory [here](https://learn.microsoft.com/en-us/azure/data-factory/).<br><br>
+   
 ## Data Lake Storage
 **Scalable and secure cloud-based storage service** designed to store and analyze massive amounts of unstructured and structured data.
  - **Optimized for storing large volumes of data**, including structured, semi-structured, and unstructured data.
@@ -137,7 +151,11 @@ You can read more about Azure Application Gateway [here](https://learn.microsoft
  - **Integration with various Azure analytics services**, such as Azure Databricks, Azure Synapse Analytics (formerly SQL Data Warehouse), and Azure HDInsight.
  - **Has two generations, Gen1 and Gen2:**
 	 - Gen1 offers a distributed file system with Hadoop-compatible APIs.
-	 - Gen2 builds on top of Azure Blob Storage, providing a combination of the Hadoop Distributed File System (HDFS) and Blob storage capabilities.<br><br>
+	 - Gen2 builds on top of Azure Blob Storage, providing a combination of the Hadoop Distributed File System (HDFS) and Blob storage capabilities.
+
+You can read more about Azure Data Lake Storage (GEN1) [here](https://learn.microsoft.com/en-us/azure/data-lake-store/).
+You can read more about Azure Data Lake Storage (GEN2) [here](https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-introduction).<br><br>
+  
 ## Data Bricks
 **Enables teams to collaborate and build data-driven applications**, perform big data analytics, and implement machine learning workflows. Combines Apache Spark, an open-source distributed computing system, with an optimized version of Databricks' Unified Analytics Platform.
  - **Uses the power of Apache Spark**, a popular distributed data processing and analytics engine.
@@ -145,7 +163,10 @@ You can read more about Azure Application Gateway [here](https://learn.microsoft
  - **Provides built-in machine learning capabilities** that simplify the development and deployment of machine learning models.
  - **Supports real-time streaming analytics** using Spark Streaming and Structured Streaming.
  - **Has Delta Lake**, an open-source storage layer built on top of Azure Databricks.
- - **Enables you to automate and schedule data workflows** using notebooks, jobs, and pipelines.<br><br>
+ - **Enables you to automate and schedule data workflows** using notebooks, jobs, and pipelines.
+
+ You can read more about Azure Data Bricks [here](https://learn.microsoft.com/en-us/azure/databricks/).<br><br>
+ 
 ## Event Grid
 **Eventing service that simplifies the development and management of event-driven architectures** by enabling the routing and delivery of events from various sources to interested subscribers.
  - **Enables the implementation of event-driven architectures.**
@@ -154,9 +175,11 @@ You can read more about Azure Application Gateway [here](https://learn.microsoft
  - **Allows you to define event subscriptions and specify filtering rules** to route events to the appropriate subscribers.
  - **Guarantees at least once delivery of events to subscribers.**
  - **Can integrate with on-premises systems and other cloud providers** ,making it suitable for hybrid and multi-cloud scenarios.
- - **Can integrate with on-premises systems and other cloud providers** ,making it suitable for hybrid and multi-cloud scenarios.<br><br>
+ - **Can integrate with on-premises systems and other cloud providers** ,making it suitable for hybrid and multi-cloud scenarios.
 
-## Event Hub
+ You can read more about Azure Event Grid [here](https://learn.microsoft.com/en-us/azure/event-grid/).<br><br>
+
+## Event Hubs
 **Highly scalable and real-time data streaming platform** designed to handle large volumes of event data from various sources and enable real-time analytics, monitoring, and data ingestion.
  - **Distributed event streaming platform that enables the ingestion**, retention, and processing of event data.
  - **Supports both event publishers and event consumers.**
@@ -164,7 +187,9 @@ You can read more about Azure Application Gateway [here](https://learn.microsoft
  - **Provides configurable event retention periods**, allowing you to define how long event data should be stored.
  - **Uses data partitioning** to distribute event data across multiple storage units called partitions.
  - **Offers built-in geo-disaster recovery capabilities.**
- - **Offers built-in geo-disaster recovery capabilities.**<br><br>
+ - **Offers built-in geo-disaster recovery capabilities.**
+
+ You can read more about Azure Event Hubs [here](https://learn.microsoft.com/en-us/azure/event-hubs/).<br><br>
 
 ## Functions
 **Serverless compute service** that allows developers to build and deploy small, event-driven functions that respond to various triggers, such as HTTP requests, timers, message queues, and more.
@@ -177,6 +202,8 @@ You can read more about Azure Application Gateway [here](https://learn.microsoft
  - **Can be executed in both stateful and stateless modes:**
 	 - In *stateless mode*, functions do not maintain any persistent state between invocations.
 	 - In *stateful mode*, functions can maintain their execution state across invocations.
+
+ You can read more about Azure Functions [here](https://learn.microsoft.com/en-us/azure/azure-functions/).<br><br>
 
 ## Kubernetes Service
 **Managed container orchestration service** that simplifies the deployment, management, and scaling of containerized applications using Kubernetes.

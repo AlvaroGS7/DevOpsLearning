@@ -333,3 +333,5 @@ Fully managed cloud service that **enables secure and scalable bidirectional com
  - **Azure IoT Hub's Device Provisioning Service** supports Enrollment Groups, which allow you to group devices together based on common enrollment criteria.
 
 You can read the full Azure IoT Hub documentation [here](https://learn.microsoft.com/en-us/azure/iot-hub/).<br><br>
+
+Go back to the top --> [Click me!](#list-of-azure-cloud-general-concepts)

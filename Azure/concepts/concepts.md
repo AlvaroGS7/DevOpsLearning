@@ -177,4 +177,6 @@ Cloud-native **security information and event management (SIEM) service** that p
  - **Uses Microsoft's threat intelligence and research** to provide early detection of emerging threats, including zero-day vulnerabilities.
  - **Can create custom hunting queries using Kusto Query Language (KQL).**
 
+You can read the full Azure Sentinel documentation [here](https://learn.microsoft.com/en-us/azure/sentinel/).<br><br>
+
 

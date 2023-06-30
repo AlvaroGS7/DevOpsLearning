@@ -307,3 +307,16 @@ You can read the full Azure Sentinel documentation [here](https://learn.microsof
 
 You can read the full Azure SQL Database documentation [here](https://learn.microsoft.com/en-us/azure/azure-sql/?view=azuresql).<br><br>
 
+## Storage
+**Scalable and highly available cloud storage service** which provides a reliable and secure platform for storing and accessing various types of data, such as files, blobs, tables, and queues.
+
+ - **Azure Blob Storage**, designed for storing unstructured data, such as text files, images, videos, and logs.
+ - **File Storage**, enables you to create file shares in the cloud that can be accessed by multiple clients simultaneously.
+ - **Table Storage**, a NoSQL key-value store that offers schemaless storage for structured data.
+ - **Storage Explorer**, is a graphical user interface (GUI) tool that allows you to easily manage and interact with Azure Storage resources.
+ - **Supports blob versioning**, which allows you to maintain and access previous versions of a blob.
+ - **Can be used to host static websites.** You can upload HTML, CSS, JavaScript, and other web assets.
+ - **Provides Shared Access Signatures**, which are secure tokens that grant limited access rights to your storage resources.
+
+You can read the full Azure Storage documentation [here](https://learn.microsoft.com/en-us/azure/storage/blobs/).<br><br>
+

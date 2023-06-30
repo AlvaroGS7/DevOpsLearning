@@ -292,4 +292,18 @@ Cloud-native **security information and event management (SIEM) service** that p
 
 You can read the full Azure Sentinel documentation [here](https://learn.microsoft.com/en-us/azure/sentinel/).<br><br>
 
+## SQL Database
+**Managed, cloud-based relational database service** that provides a scalable and fully managed platform for hosting SQL Server databases.
+
+ - **Built on the same SQL Server database engine**, providing compatibility with on-premises SQL Server.
+ - **Enables hybrid connectivity scenarios**, allowing you to securely connect and synchronize data between on-premises SQL Server instances and Azure SQL Database.
+ - **Supports advanced development capabilities** such as JSON support, spatial data, graph data, and full-text search.
+ - **Provides built-in scalability options** to handle variable workloads.
+	 - Offers the **Hyperscale** service tier, specifically designed for large-scale, mission-critical workloads.
+ - **Provides transparent data encryption at rest**, which automatically encrypts data files and backups.
+ - **Supports Always Encrypted.**
+ - **Uses intelligent query processing** capabilities that optimize query performance.
+ - **Has Query Store**, a powerful feature that captures and retains query execution plans and performance metrics.
+
+You can read the full Azure SQL Database documentation [here](https://learn.microsoft.com/en-us/azure/azure-sql/?view=azuresql).<br><br>
 

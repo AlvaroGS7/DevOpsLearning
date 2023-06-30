@@ -320,3 +320,16 @@ You can read the full Azure SQL Database documentation [here](https://learn.micr
 
 You can read the full Azure Storage documentation [here](https://learn.microsoft.com/en-us/azure/storage/blobs/).<br><br>
 
+## IoT Hub
+Fully managed cloud service that **enables secure and scalable bidirectional communication between IoT devices and the cloud.**
+
+ - **Offers robust device management capabilities**, allowing you to register, provision, and manage large fleets of IoT devices at scale.
+ - **Ensures secure communication** between devices and the cloud using industry-standard security protocols such as **Transport Layer Security (TLS) and Device Provisioning Service (DPS).**
+ - Supports message routing capabilities that allow you to define rules and actions.
+ - **Enables the ingestion of telemetry data from IoT devices,** including sensor readings, device status, and other metrics.
+ - **Offers Edge capabilities** that enable deploying and managing IoT solutions at the edge.
+ - **Allows you to configure custom endpoints** for cloud-to-device messaging.
+ - **Provides message retention for device-to-cloud messages.**
+ - **Azure IoT Hub's Device Provisioning Service** supports Enrollment Groups, which allow you to group devices together based on common enrollment criteria.
+
+You can read the full Azure IoT Hub documentation [here](https://learn.microsoft.com/en-us/azure/iot-hub/).<br><br>

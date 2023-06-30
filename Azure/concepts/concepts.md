@@ -152,3 +152,16 @@ You can find more about Az Machine Learning [here](https://learn.microsoft.com/e
 
 You can find more about Az Monitor [here](https://learn.microsoft.com/en-us/azure/azure-monitor/).<br>
 
+## Service Bus
+**A messaging service** that enables reliable communication and coordination between different applications and services running on various platforms and devices.
+ - **Supports two fundamental messaging patterns:**
+	 - **The publish-subscribe** pattern allows publishers to send messages to a topic and subscribers can receive those messages selectively based on their interests.
+	 - **The queuing** pattern enables reliable and ordered message delivery to a single receiver.
+ - **Acts as a message broker**, decoupling senders and receivers of messages.
+ - **Supports durable message queues**, which guarantee message delivery and provide first-in, first-out (FIFO) semantics.
+ - **Provides a dead-letter queue** where messages that cannot be delivered to their intended destinations are moved.
+ - **Allows messages of up to 1 MB in size.**
+ - **Supports message compression.**
+ - **You can schedule messages to be delivered at a specific time.**
+
+

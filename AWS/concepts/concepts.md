@@ -65,10 +65,22 @@ This resource is a **web service** that enables secure management of access to A
 - Is **region-specific**, meaning that user accounts, policies, and roles created in one region are not automatically available in other regions.
 - **Supports cross-account access**, allowing you to grant access to your AWS resources to users from other AWS accounts.<br><br>
 
-You can read more about AWS Identity Access Management [here](https://docs.aws.amazon.com/iam/).
+You can read more about AWS Identity Access Management [here](https://docs.aws.amazon.com/iam/).<br><br>
 
 ## API Gateway
 **Fully managed service** that enables you to create, publish, and manage APIs (Application Programming Interfaces) for your applications and back-end services. It acts as a front-door for your APIs, allowing you to securely expose them to external clients or internal applications.
+
+ - You can easily **define RESTful APIs or WebSocket APIs** using its intuitive interface.
+ - Supports various **authentication mechanisms** like A*WS Identity and Access Management (IAM) roles, AWS Cognito*, and custom authorizers.
+ - Allows **request and response transformations**, enabling the modification of data structure, content, or headers.
+ - Provides **built-in rate limiting and throttling capabilities** to protect your APIs.
+ - Supports **versioning and deployment of APIs**, allowing you to manage different versions and environments without disrupting existing clients.
+ - **Uses Amazon CloudFront's global network of edge locations** to provide edge-optimized endpoints by default.
+
+You can read more about API Gateway [here](https://docs.aws.amazon.com/apigateway/index.html).
+
+
+
 
 
 

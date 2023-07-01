@@ -1,12 +1,8 @@
-﻿
-
-
-
-## Good Practices Compilation
+# Good Practices Compilation
 *This is just a best practice compilation made by **Álvaro González**. Some of the most important ones could be missing but I've tried to have most of them.*
 
 ![General DevOps IMG](https://ibagroup.kz/wp-content/uploads/2020/06/banner_1300-357_DevOps.png)
-## INDEX
+# INDEX
 **1.-** [General Good Practices](#general-good-practices)
 
 **2.-** [Cloud](#Cloud)
@@ -45,7 +41,8 @@
  - Focus on **continuous improvement** of processes in manufacturing, engineering, development, and business management.
  - Developers are responsible for **monitoring and alerting**
  -  **Maintain up-to-date documentation** to ensure proper knowledge sharing and collaboration within your team.
-	 - You can use tools like *Google Docs, Google Drive*, or third-party documentation platforms.
+	 - You can use tools like *Google Docs, Google Drive*, or third-party documentation platforms.<br><br>
+
 ## Azure Cloud
 
 ![AZ Cloud IMG](https://www.evozon.com/wp-content/uploads/2017/05/Azure-Banner.png)
@@ -63,7 +60,7 @@
  - Implement **monitoring and logging solutions** to gain visibility into your applications and infrastructure. 
 	 - Here you can use Azure Monitor or Application Insights.
  - Regularly **review and improve** your pipelines and processes.
- - Official Documentation Link: https://learn.microsoft.com/en-us/azure/?product=popular
+ - Official Documentation Link: [Azure Cloud Doc](https://learn.microsoft.com/en-us/azure/?product=popular)<br><br>
 
 ## Amazon Web Services Cloud
 ![AWS Cloud IMG](https://tudip.com/wp-content/uploads/2019/01/awsBanner.jpg)
@@ -85,7 +82,7 @@
 	 - Use services like *AWS Backup, AWS S3 for backups, and AWS Glacier* for long-term archiving.
  - **Optimize your resource usage and costs** by rightsizing your infrastructure, utilizing cost-effective instance types, and leveraging services
 	 - You can use *AWS Cost Explorer and AWS Budgets* to monitor and control your expenses. You can also use *AWS Reserved Instances* for predictable workloads.
- - Follow the official documentation. You can find it here: https://docs.aws.amazon.com
+ - Follow the official [AWS Cloud Documentation](https://docs.aws.amazon.com)<br><br>
 
 ## Google Cloud Platform
 ![Google Cloud IMG](https://d3iux33l8x59j6.cloudfront.net/imagenes/noticias/google-cloud-banner.jpg)
@@ -106,7 +103,7 @@
 	 - Use services like *Google Cloud Storage* for backups, *Google Cloud SQL*  for managed relational databases with built-in replication and backups, and  *Google Cloud Spanner* for globally distributed relational databases.
  - **Optimize your resource usage and costs** by rightsizing your infrastructure.
 	 - Use services like *Google Cloud Billing API and Google Cloud Cost Management* tools.
- - **Use the official documentation.** Here's the official link: https://cloud.google.com/docs?hl=es
+ - Use the official [Google Cloud Documentation](https://cloud.google.com/docs?hl=es).<br><br>
 
 # Software 
 
@@ -125,7 +122,7 @@
  - **Maintain clear and comprehensive documentation for your playbooks**, including their purpose, usage instructions, variable definitions, and any specific requirements.
  - It is suggested that you define groups based on purpose of the **host** (roles) and also **geography** or datacenter location (if applicable)
  - **Using the "state" parameter.** The `state` parameter is optional to a lot of modules. Whether `state=present` or `state=absent`, it’s always best to leave that parameter in your playbooks to make it clear.
- - Use official documentation. You can find it here: https://docs.ansible.com
+ - Use official [Ansible Documentation](https://docs.ansible.com).<br><br>
 
 ## Docker
 ![Docker IMG](https://francofernando.com/assets/img/blog/frameworks/docker/docker.png)
@@ -147,8 +144,9 @@
  - **Include only the necessary dependencies** in your container.
  - **Implement monitoring and logging** solutions for your Docker containers.
  - Use official documentation and user shared images:
-	 - Documentation (Docker Docs): https://docs.docker.com
-	 - Docker Hub: https://hub.docker.com
+	 - [Documentation (Docker Docs)](https://docs.docker.com)
+	 - [Docker Hub](https://hub.docker.com)<br><br>
+
  ## Kubernetes
  ![Kubernetes IMG](https://codefresh.io/wp-content/uploads/2017/02/Intro-to-Kubernetes-blog-b-2.png)
  
@@ -164,7 +162,8 @@
  - **Implement monitoring and observability solutions** to gain insights into your Kubernetes cluster.
 	 - Here, you can use tools like Prometheus and Grafana (i'll give best practices for them later).
  - **Keep your Kubernetes cluster up to date** by regularly applying updates and patches.
- - **Follow the official documentation**, here's the link: https://kubernetes.io/docs/home/
+ - Follow the official [Kubernetes Documentation](https://kubernetes.io/docs/home/).<br><br>
+
 ## Helm
 ![Helm IMG](https://www.adictosaltrabajo.com/wp-content/uploads/2020/05/Captura-de-pantalla-2020-05-08-a-las-14.24.42.png)
  - **Organize your charts** using a logical directory structure. Split your templates, values, and helper files into separate directories for better maintainability. The directory structure should look like this:
@@ -179,8 +178,8 @@
  - **Include comprehensive documentation in your charts.** You can do this using comments, separate files or external tools.
  - **Assign versions to your charts** and follow semantic versioning conventions.
  - **Use official documentation and user shared charts**:
-	 - Documentation: https://helm.sh/docs/
-	 - Artifact Hub: https://artifacthub.io
+	 - [Helm Documentation](https://helm.sh/docs/)
+	 - [Artifact Hub](https://artifacthub.io)<br><br>
 
 ## Prometheus
 ![Prometheus IMG](https://www.cncf.io/wp-content/uploads/2020/08/prometheusBanner-1.png)
@@ -194,7 +193,8 @@
  - **Deploy Prometheus in a highly available way** to ensure resilience and reliability. For example, you can use replica sets, load balancing, and redundant storage.
  - **Monitor the health and performance** of your Prometheus servers using metrics exposed by Prometheus itself.
  - **Track failures and total requests**, not failures and successes.
- - You can find the official documentation here: https://prometheus.io/docs/introduction/overview/
+ - Here you can find the official [Prometheus Documentation](https://prometheus.io/docs/introduction/overview/).<br><br>
+
 ## Grafana
 ![Grafana IMG](https://pandorafms.com/blog/wp-content/uploads/2019/02/que-es-grafana-1.png)
  - Before creating dashboards, **define the purpose, audience, and specific metrics** you want to display.
@@ -209,9 +209,9 @@
  - **Regularly back up** your Grafana dashboards and their associated configuration files.
  - **Monitor the health and performance** of your Grafana instance itself.
  - **Use Grafana community's resources**, including official documentation, forums, and dashboards shared by other users. You can find them here:
-	 - User dashboards: https://grafana.com/grafana/dashboards/
-	 - Grafana documentation: https://grafana.com/docs/grafana/latest/
-	 - Forums: https://community.grafana.com
+	 - [User dashboards](https://grafana.com/grafana/dashboards/)
+	 - [Grafana documentation](https://grafana.com/docs/grafana/latest/)
+	 - [Forums](https://community.grafana.com)<br><br>
 
 ## Terraform
 ![Terraform IMG](https://www.turbogeek.co.uk/wp-content/uploads/2018/11/hashicorp-terraform-banner.png)
@@ -227,8 +227,7 @@
  - Follow a good terraform structure (Environments are your terraform Deployments and all the modules in a separate folder). Your terraform folder should look like this:
 
 ![TF Structure](https://i.imgur.com/G9lXpVe.png)
- - You can look for the **terraform documentation** [here](https://developer.hashicorp.com/terraform/docs).
- 
+ - Here you can look for the [Terraform Documentation](https://developer.hashicorp.com/terraform/docs).<br><br>
 
 # Scripts
 ## Python
@@ -243,7 +242,7 @@
  - Use **built-in language features and libraries** for optimal performance.
  - **Follow DRY** (Don't Repeat Yourself) Principle. You can get more info about this [here](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself).
  - **Use virtual environments** (e.g., virtualenv, venv) to create isolated environments for your Python projects.
- - You can find the **official python doc** here: https://docs.python.org/3/
+ - Here you can find the official [Python Documentation](https://docs.python.org/3/). <br><br>
 
 ## Shell
 ![Linux IMG](https://adminscriptbank.files.wordpress.com/2016/09/banner_linux.png)
@@ -254,7 +253,7 @@
  - **Validate and sanitize user input** to ensure it meets the required criteria.
  - **Break down your script into smaller functions** to encapsulate reusable code.
  - **Break your script into multiple files** or modules to improve readability and maintainability.
- - You can find a good b**ash documentation** here: https://devdocs.io/bash/
+ - You can find a good (not official) **bash documentation** here: [https://devdocs.io/](https://devdocs.io/) bash/<br><br>
 
 ## YAML
 ![YAML IMG](https://ucarecdn.com/58b00b7f-42ac-4a85-8e5b-b30dcb015a8e/-/crop/1024x380/0,306/-/preview/)

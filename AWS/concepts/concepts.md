@@ -1,3 +1,4 @@
+
 # List of AWS Cloud General Concepts
 ![AWS Banner](https://tudip.com/wp-content/uploads/2019/01/awsBanner.jpg)
 
@@ -55,7 +56,7 @@ In this block, I will explain some of the commonly used resources in AWS and how
 
 <a name="iam"></a>
 ## IAM (Identity and Access Management)
-This resource is a **web service** that enables secure management of access to AWS resources. You can control also and manage user identities, permissions, and policies within your AWS account.
+This resource is a web service that enables **secure management of access to AWS resources.** You can control also and manage user identities, permissions, and policies within your AWS account.
 
 - Provides functionalities for **managing access** to AWS resources.
 - **Supports roles and federation**, allowing you to grant specific permissions to AWS services and trusted entities.
@@ -68,7 +69,7 @@ This resource is a **web service** that enables secure management of access to A
 You can read more about AWS Identity Access Management [here](https://docs.aws.amazon.com/iam/).<br><br>
 
 ## API Gateway
-**Fully managed service** that enables you to create, publish, and manage APIs (Application Programming Interfaces) for your applications and back-end services. It acts as a front-door for your APIs, allowing you to securely expose them to external clients or internal applications.
+Fully managed service that enables you to **create, publish, and manage APIs (Application Programming Interfaces) for your applications** and back-end services. It acts as a front-door for your APIs, allowing you to securely expose them to external clients or internal applications.
 
  - You can easily **define RESTful APIs or WebSocket APIs** using its intuitive interface.
  - Supports various **authentication mechanisms** like A*WS Identity and Access Management (IAM) roles, AWS Cognito*, and custom authorizers.
@@ -78,6 +79,10 @@ You can read more about AWS Identity Access Management [here](https://docs.aws.a
  - **Uses Amazon CloudFront's global network of edge locations** to provide edge-optimized endpoints by default.
 
 You can read more about API Gateway [here](https://docs.aws.amazon.com/apigateway/index.html).
+
+<a name="ec2"></a>
+## EC2 (Elastic Compute Cloud)
+Web service provided that **offers resizable compute capacity in the cloud**. It allows you to quickly provision virtual servers, known as EC2 instances, and run applications or services on them.
 
 
 

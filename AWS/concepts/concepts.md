@@ -30,13 +30,35 @@
 
 ## What is AWS
 
-AWS stands for Amazon Web Services. It is a comprehensive and widely used cloud computing platform offered by Amazon. AWS provides a wide range of cloud services that allow businesses and individuals to build, deploy, and manage applications and services over the internet, without the need to invest in physical hardware.
+AWS (Amazon Web Services), a leading cloud computing platform, offers a comprehensive range of services and features for businesses.
 
-It is considered the pioneer of cloud computing, launching its services in 2006. Secondly, AWS boasts the most extensive service portfolio among cloud providers, offering over 200 fully featured services. It also introduced the concept of Availability Zones (AZs), which are isolated and fault-tolerant data centers within regions.
+Provided by Amazon, AWS provides a robust infrastructure for computing power, storage, networking, and databases. It enables users to easily build, deploy, and manage applications through its globally distributed data centers.
 
-## Most Common Concepts
+With AWS, users can leverage virtual machines, multiple storage options, and networking capabilities to create a flexible and scalable infrastructure that suits their needs.
 
-In this block, I will explain some of the commonly used resources in AWS and how they function. AWS offers a wide range of services that cater to different needs and requirements. AWS also provides services for analytics, machine learning, security, and many other areas. Each resource has its own unique functionalities and capabilities, empowering users to build and deploy a wide variety of applications and services in a flexible and scalable manner.
+AWS also offers managed database services, application services, artificial intelligence (AI) tools, and Internet of Things (IoT) services, empowering organizations to harness advanced technologies for innovation and growth.
+
+A key strength of AWS is its commitment to security, offering services such as AWS Identity and Access Management (IAM), AWS WAF (Web Application Firewall), and AWS Key Management Service (KMS) to ensure robust security measures.
+
+Additionally, AWS follows a pay-as-you-go pricing model, allowing businesses to optimize costs by paying only for the resources they consume.
+
+The scalability, reliability, and cost-effectiveness of AWS make it an attractive choice for organizations of all sizes, enabling them to scale their infrastructure, increase operational efficiency, and drive digital transformation.
+
+Here you can look for the full [AWS Documentation](https://docs.aws.amazon.com).<br><br>
+
+# Most Common Concepts
+
+In this block, I will explain some of the commonly used resources in AWS and how they function. AWS offers a wide range of services that cater to different needs and requirements. AWS also provides services for analytics, machine learning, security, and many other areas. Each resource has its own unique functionalities and capabilities, empowering users to build and deploy a wide variety of applications and services in a flexible and scalable manner.<br><br>
 
 <a name="iam"></a>
 ### IAM (Identity and Access Management)
+This resource is a **web service** that enables secure management of access to AWS resources. You can control also and manage user identities, permissions, and policies within your AWS account.
+
+- Provides functionalities for **managing access** to AWS resources.
+- **Supports roles and federation**, allowing you to grant specific permissions to AWS services and trusted entities.
+- Allows you to **integrate IAM with external identity providers**, such as Active Directory, enabling users to access AWS resources with their existing credentials.
+- Has **logging capabilities**, which enable monitoring and tracking of user activity within your AWS account.
+- **Free to use in your AWS account**, with no additional cost beyond the usage of AWS resources.
+- Is **region-specific**, meaning that user accounts, policies, and roles created in one region are not automatically available in other regions.
+- **Supports cross-account access**, allowing you to grant access to your AWS resources to users from other AWS accounts.
+

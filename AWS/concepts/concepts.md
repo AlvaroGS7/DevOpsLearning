@@ -33,3 +33,10 @@
 AWS stands for Amazon Web Services. It is a comprehensive and widely used cloud computing platform offered by Amazon. AWS provides a wide range of cloud services that allow businesses and individuals to build, deploy, and manage applications and services over the internet, without the need to invest in physical hardware.
 
 It is considered the pioneer of cloud computing, launching its services in 2006. Secondly, AWS boasts the most extensive service portfolio among cloud providers, offering over 200 fully featured services. It also introduced the concept of Availability Zones (AZs), which are isolated and fault-tolerant data centers within regions.
+
+## Most Common Concepts
+
+In this block, I will explain some of the commonly used resources in AWS and how they function. AWS offers a wide range of services that cater to different needs and requirements. AWS also provides services for analytics, machine learning, security, and many other areas. Each resource has its own unique functionalities and capabilities, empowering users to build and deploy a wide variety of applications and services in a flexible and scalable manner.
+
+<a name="iam"></a>
+### IAM (Identity and Access Management)

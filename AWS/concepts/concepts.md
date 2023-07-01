@@ -78,7 +78,7 @@ Fully managed service that enables you to **create, publish, and manage APIs (Ap
  - Supports **versioning and deployment of APIs**, allowing you to manage different versions and environments without disrupting existing clients.
  - **Uses Amazon CloudFront's global network of edge locations** to provide edge-optimized endpoints by default.
 
-You can read more about API Gateway [here](https://docs.aws.amazon.com/apigateway/index.html).
+You can read more about API Gateway [here](https://docs.aws.amazon.com/apigateway/index.html).<br><br>
 
 <a name="ec2"></a>
 ## EC2 (Elastic Compute Cloud)

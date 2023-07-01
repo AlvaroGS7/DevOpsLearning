@@ -1,6 +1,6 @@
 # List of AWS Cloud General Concepts
 
-**1.** [What is AWS](#what-is-aws-cloud)
+**1.** [What is AWS](#what-is-aws)
 
 **2.** [Most Common Concepts](#most-common-concepts)
 

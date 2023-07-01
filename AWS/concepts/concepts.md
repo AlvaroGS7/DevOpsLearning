@@ -60,5 +60,9 @@ This resource is a **web service** that enables secure management of access to A
 - Has **logging capabilities**, which enable monitoring and tracking of user activity within your AWS account.
 - **Free to use in your AWS account**, with no additional cost beyond the usage of AWS resources.
 - Is **region-specific**, meaning that user accounts, policies, and roles created in one region are not automatically available in other regions.
-- **Supports cross-account access**, allowing you to grant access to your AWS resources to users from other AWS accounts.
+- **Supports cross-account access**, allowing you to grant access to your AWS resources to users from other AWS accounts.<br><br>
+
+You can read more about AWS Identity Access Management [here](https://docs.aws.amazon.com/iam/).
+
+
 

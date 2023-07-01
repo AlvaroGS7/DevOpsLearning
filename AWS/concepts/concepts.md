@@ -83,6 +83,16 @@ You can read more about API Gateway [here](https://docs.aws.amazon.com/apigatewa
 <a name="ec2"></a>
 ## EC2 (Elastic Compute Cloud)
 Web service provided that **offers resizable compute capacity in the cloud**. It allows you to quickly provision virtual servers, known as EC2 instances, and run applications or services on them.
+- Flexibility to choose from a **variety of instance types** based on your specific needs.
+- You can easily **scale your compute capacity** up or down based on demand.
+- Offers **different pricing options** to suit your workload and budget.
+- You have the freedom to choose from a **wide range of operating systems** and can also install and **run your custom applications**.
+- Instances can be launched in **multiple Availability Zones within a region**.
+- **Instances can be launched with user data scripts**, which are executed when the instance starts.
+- **You can use placement groups**, which enable low-latency network communication between instances in the same group.
+- **Provides the capability to hibernate instances**.
+
+You can read more about EC2 [here](https://docs.aws.amazon.com/ec2/index.html).<br><br>
 
 
 

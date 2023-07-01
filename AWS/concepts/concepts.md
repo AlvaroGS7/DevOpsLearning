@@ -28,4 +28,8 @@
 - **2.22 -** [EBS (Elastic Block Store)](#ebs)
 - **2.23 -** [IoT Core](#iot-core)
 
-Please note that this is not an exhaustive list of all AWS services, but it includes some commonly used services that correspond to the Azure services you mentioned.
+## What is AWS
+
+AWS stands for Amazon Web Services. It is a comprehensive and widely used cloud computing platform offered by Amazon. AWS provides a wide range of cloud services that allow businesses and individuals to build, deploy, and manage applications and services over the internet, without the need to invest in physical hardware.
+
+It is considered the pioneer of cloud computing, launching its services in 2006. Secondly, AWS boasts the most extensive service portfolio among cloud providers, offering over 200 fully featured services. It also introduced the concept of Availability Zones (AZs), which are isolated and fault-tolerant data centers within regions.

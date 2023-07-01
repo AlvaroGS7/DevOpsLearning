@@ -1,4 +1,5 @@
 # List of AWS Cloud General Concepts
+![AWS Banner](https://tudip.com/wp-content/uploads/2019/01/awsBanner.jpg)
 
 **1.** [What is AWS](#what-is-aws)
 
@@ -51,7 +52,7 @@ Here you can look for the full [AWS Documentation](https://docs.aws.amazon.com).
 In this block, I will explain some of the commonly used resources in AWS and how they function. AWS offers a wide range of services that cater to different needs and requirements. AWS also provides services for analytics, machine learning, security, and many other areas. Each resource has its own unique functionalities and capabilities, empowering users to build and deploy a wide variety of applications and services in a flexible and scalable manner.<br><br>
 
 <a name="iam"></a>
-### IAM (Identity and Access Management)
+## IAM (Identity and Access Management)
 This resource is a **web service** that enables secure management of access to AWS resources. You can control also and manage user identities, permissions, and policies within your AWS account.
 
 - Provides functionalities for **managing access** to AWS resources.
@@ -63,6 +64,9 @@ This resource is a **web service** that enables secure management of access to A
 - **Supports cross-account access**, allowing you to grant access to your AWS resources to users from other AWS accounts.<br><br>
 
 You can read more about AWS Identity Access Management [here](https://docs.aws.amazon.com/iam/).
+
+## API Gateway
+**Fully managed service** that enables you to create, publish, and manage APIs (Application Programming Interfaces) for your applications and back-end services. It acts as a front-door for your APIs, allowing you to securely expose them to external clients or internal applications.
 
 
 

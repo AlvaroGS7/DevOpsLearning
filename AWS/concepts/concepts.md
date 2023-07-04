@@ -111,3 +111,17 @@ And here's some general features about ELB:
  - With ALBs, you can configure **custom error pages** for specific HTTP status codes.
  
  Here you can read more about [Elastic Load Balancers](https://docs.aws.amazon.com/elasticloadbalancing/).<br><br>
+
+ <a name="ecs"></a>
+## ECS (Elastic Container Service)
+Fully managed container orchestration service that allows you to run, manage, and scale containerized applications using Docker containers.
+
+Here's some useful features about it:
+
+ - **You can use task definition**, a blueprint that defines how a containerized application should be deployed.
+ - **ECS integrates seamlessly with ELB.**
+ - **ECS offers integration with AWS Fargate** (A serverless compute engine for containers).
+ - **Uses capacity providers**, which are used to define the type and amount of infrastructure resources available for running containers.
+ - **Provides a task metadata endpoint** that allows containers within a task to retrieve information about themselves
+
+ Here you can read more about [Elastic Container Service](https://docs.aws.amazon.com/elasticloadbalancing/).<br><br>

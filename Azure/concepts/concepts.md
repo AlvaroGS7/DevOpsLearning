@@ -146,6 +146,6 @@ Here's some useful features about S3:
  - **Can generate event notifications** when specific actions occur, such as object creation, deletion, or restoration.
  - **Uses transfer acceleration**, that enables faster data uploads and downloads to and from S3.
  - **Provides eventual consistency** for overwrite PUTS and DELETES.
- - Allows you to retrieve only a subset of data from an object by using **SQL-like querie**s.
+ - Allows you to retrieve only a subset of data from an object by using **SQL-like queries**.
 
  Here you can read more about [Simple Storage Service](https://docs.aws.amazon.com/s3/index.html).<br><br>

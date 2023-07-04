@@ -35,9 +35,9 @@
 
 ## What is AWS
 
-AWS (Amazon Web Services), a leading cloud computing platform, offers a comprehensive range of services and features for businesses.
+AWS (Amazon Web Services), a one of the leading cloud computing platforms, offers a comprehensive range of services and features for businesses.
 
-Provided by Amazon, AWS provides a robust infrastructure for computing power, storage, networking, and databases. It enables users to easily build, deploy, and manage applications through its globally distributed data centers.
+Provided by **Amazon**, AWS provides a robust infrastructure for computing power, storage, networking, and databases. It enables users to easily build, deploy, and manage applications through its globally distributed data centers.
 
 With AWS, users can leverage virtual machines, multiple storage options, and networking capabilities to create a flexible and scalable infrastructure that suits their needs.
 
@@ -53,7 +53,7 @@ Here you can look for the full [AWS Documentation](https://docs.aws.amazon.com).
 
 # Most Common Concepts
 
-In this block, I will explain some of the commonly used resources in AWS and how they function. AWS offers a wide range of services that cater to different needs and requirements. AWS also provides services for analytics, machine learning, security, and many other areas. Each resource has its own unique functionalities and capabilities, empowering users to build and deploy a wide variety of applications and services in a flexible and scalable manner.<br><br>
+In this block, I will explain some of the most used resources in AWS and how they work. AWS offers a wide range of services that cater to different needs and requirements, it also provides services for analytics, machine learning, security, and many other areas. Each resource has its own unique functionalities and capabilities, empowering users to build and deploy a wide variety of applications and services in a flexible and scalable manner.<br><br>
 
 <a name="iam"></a>
 ## IAM (Identity and Access Management)

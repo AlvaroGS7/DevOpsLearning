@@ -1,4 +1,5 @@
 
+
 # List of AWS Cloud General Concepts
 ![AWS Banner](https://tudip.com/wp-content/uploads/2019/01/awsBanner.jpg)
 
@@ -66,7 +67,7 @@ This resource is a web service that enables **secure management of access to AWS
 - Is **region-specific**, meaning that user accounts, policies, and roles created in one region are not automatically available in other regions.
 - **Supports cross-account access**, allowing you to grant access to your AWS resources to users from other AWS accounts.<br><br>
 
-You can read more about AWS Identity Access Management [here](https://docs.aws.amazon.com/iam/).<br><br>
+Here you can read more about [AWS Identity Access Management](https://docs.aws.amazon.com/iam/).<br><br>
 
 ## API Gateway
 Fully managed service that enables you to **create, publish, and manage APIs (Application Programming Interfaces) for your applications** and back-end services. It acts as a front-door for your APIs, allowing you to securely expose them to external clients or internal applications.
@@ -78,7 +79,7 @@ Fully managed service that enables you to **create, publish, and manage APIs (Ap
  - Supports **versioning and deployment of APIs**, allowing you to manage different versions and environments without disrupting existing clients.
  - **Uses Amazon CloudFront's global network of edge locations** to provide edge-optimized endpoints by default.
 
-You can read more about API Gateway [here](https://docs.aws.amazon.com/apigateway/index.html).<br><br>
+Here you can read more about [API Gateway](https://docs.aws.amazon.com/apigateway/index.html).<br><br>
 
 <a name="ec2"></a>
 ## EC2 (Elastic Compute Cloud)
@@ -92,10 +93,21 @@ Web service provided that **offers resizable compute capacity in the cloud**. It
 - **You can use placement groups**, which enable low-latency network communication between instances in the same group.
 - **Provides the capability to hibernate instances**.
 
-You can read more about EC2 [here](https://docs.aws.amazon.com/ec2/index.html).<br><br>
+Here you can read more about [Elastic Compute Cloud](https://docs.aws.amazon.com/ec2/index.html).<br><br>
 
+<a name="elb"></a>
+## ELB (Elastic Load Balancer)
+Service that helps distribute incoming network traffic across multiple targets, such as Amazon EC2 instances, containers, and IP addresses.
 
+There are three types of load balancers provided by AWS:
+ - **Classic Load Balancer (CLB):** The original load balancer. It operates at both the request and connection level (Layer 4 and Layer 7 of the OSI model) and is suitable for simple applications.
+ - **Application Load Balancer (ALB):** This load balancer operates at the application layer (Layer 7) and provides advanced routing and content-based routing capabilities.
+ - **Network Load Balancer (NLB):** This load balancer operates at the transport layer (Layer 4) and is designed to handle high network throughput.
 
-
-
-
+And here's some general features about ELB:
+ - **ELBs can offload the SSL/TLS encryption and decryption** process.
+ - **ALBs offer a feature called sticky sessions**, and can route requests from the same client to the same target for the duration of a session.
+ - **You can enable Cross-zone Load Balancing for an ALB or CLB** to balance the load more evenly across instances in different AZs.
+ - With ALBs, you can configure **custom error pages** for specific HTTP status codes.
+ 
+ Here you can read more about [Elastic Load Balancers](https://docs.aws.amazon.com/elasticloadbalancing/).<br><br>

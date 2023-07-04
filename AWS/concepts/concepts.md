@@ -35,9 +35,9 @@
 
 ## What is AWS
 
-AWS (Amazon Web Services), a one of the leading cloud computing platforms, offers a comprehensive range of services and features for businesses.
+AWS (Amazon Web Services), a leading cloud computing platform, offers a comprehensive range of services and features for businesses.
 
-Provided by **Amazon**, AWS provides a robust infrastructure for computing power, storage, networking, and databases. It enables users to easily build, deploy, and manage applications through its globally distributed data centers.
+Provided by Amazon, AWS provides a robust infrastructure for computing power, storage, networking, and databases. It enables users to easily build, deploy, and manage applications through its globally distributed data centers.
 
 With AWS, users can leverage virtual machines, multiple storage options, and networking capabilities to create a flexible and scalable infrastructure that suits their needs.
 
@@ -53,11 +53,13 @@ Here you can look for the full [AWS Documentation](https://docs.aws.amazon.com).
 
 # Most Common Concepts
 
-In this block, I will explain some of the most used resources in AWS and how they work. AWS offers a wide range of services that cater to different needs and requirements, it also provides services for analytics, machine learning, security, and many other areas. Each resource has its own unique functionalities and capabilities, empowering users to build and deploy a wide variety of applications and services in a flexible and scalable manner.<br><br>
+In this block, I will explain some of the commonly used resources in AWS and how they function. AWS offers a wide range of services that cater to different needs and requirements. AWS also provides services for analytics, machine learning, security, and many other areas. Each resource has its own unique functionalities and capabilities, empowering users to build and deploy a wide variety of applications and services in a flexible and scalable manner.<br><br>
 
 <a name="iam"></a>
 ## IAM (Identity and Access Management)
-This resource is a web service that enables **secure management of access to AWS resources.** You can control also and manage user identities, permissions, and policies within your AWS account.
+This resource is a web service that enables **secure management of access to AWS resources.** 
+
+You can control also and manage user identities, permissions, and policies within your AWS account.
 
 - Provides functionalities for **managing access** to AWS resources.
 - **Supports roles and federation**, allowing you to grant specific permissions to AWS services and trusted entities.
@@ -70,7 +72,9 @@ This resource is a web service that enables **secure management of access to AWS
 Here you can read more about [AWS Identity Access Management](https://docs.aws.amazon.com/iam/).<br><br>
 
 ## API Gateway
-Fully managed service that enables you to **create, publish, and manage APIs (Application Programming Interfaces) for your applications** and back-end services. It acts as a front-door for your APIs, allowing you to securely expose them to external clients or internal applications.
+Fully managed service that enables you to **create, publish, and manage APIs (Application Programming Interfaces) for your applications** and back-end services. 
+
+It acts as a front-door for your APIs, allowing you to securely expose them to external clients or internal applications.
 
  - You can easily **define RESTful APIs or WebSocket APIs** using its intuitive interface.
  - Supports various **authentication mechanisms** like A*WS Identity and Access Management (IAM) roles, AWS Cognito*, and custom authorizers.
@@ -83,7 +87,9 @@ Here you can read more about [API Gateway](https://docs.aws.amazon.com/apigatewa
 
 <a name="ec2"></a>
 ## EC2 (Elastic Compute Cloud)
-Web service provided that **offers resizable compute capacity in the cloud**. It allows you to quickly provision virtual servers, known as EC2 instances, and run applications or services on them.
+Web service provided that **offers resizable compute capacity in the cloud**. 
+
+It allows you to quickly provision virtual servers, known as EC2 instances, and run applications or services on them.
 - Flexibility to choose from a **variety of instance types** based on your specific needs.
 - You can easily **scale your compute capacity** up or down based on demand.
 - Offers **different pricing options** to suit your workload and budget.
@@ -97,7 +103,7 @@ Here you can read more about [Elastic Compute Cloud](https://docs.aws.amazon.com
 
 <a name="elb"></a>
 ## ELB (Elastic Load Balancer)
-Service that helps distribute incoming network traffic across multiple targets, such as Amazon EC2 instances, containers, and IP addresses.
+Service that **helps distribute incoming network traffic across multiple targets**, such as Amazon EC2 instances, containers, and IP addresses.
 
 There are three types of load balancers provided by AWS:
  - **Classic Load Balancer (CLB):** The original load balancer. It operates at both the request and connection level (Layer 4 and Layer 7 of the OSI model) and is suitable for simple applications.
@@ -112,9 +118,9 @@ And here's some general features about ELB:
  
  Here you can read more about [Elastic Load Balancers](https://docs.aws.amazon.com/elasticloadbalancing/).<br><br>
 
- <a name="ecs"></a>
+<a name="ecs"></a>
 ## ECS (Elastic Container Service)
-Fully managed container orchestration service that allows you to run, manage, and scale containerized applications using Docker containers.
+Fully managed **container orchestration service** that allows you to run, manage, and scale containerized applications using Docker containers.
 
 Here's some useful features about it:
 
@@ -125,3 +131,12 @@ Here's some useful features about it:
  - **Provides a task metadata endpoint** that allows containers within a task to retrieve information about themselves
 
  Here you can read more about [Elastic Container Service](https://docs.aws.amazon.com/elasticloadbalancing/).<br><br>
+
+<a name="s3"></a>
+## S3 (Simple Storage Service)
+Offers scalability, durability, and security to store and retrieve any amount of data from anywhere on the web. 
+
+Used for a variety of storage use cases, ranging from simple backup and archiving to hosting static websites and powering data lakes for big data analytics.
+
+
+ Here you can read more about [Simple Storage Service](https://docs.aws.amazon.com/s3/index.html).<br><br>

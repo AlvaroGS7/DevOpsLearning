@@ -71,7 +71,9 @@ Here's some interesting utilities:
 You can read more about Azure API Management [here](https://learn.microsoft.com/en-us/azure/api-management/).<br><br>
 
 ## App Service
-**Allows developers to build, deploy, and scale web, mobile, and API applications** without having to worry about managing the underlying infrastructure. App Service simplifies the process of deploying and managing applications. Works as a PaaS (Platform as a Service).
+**Allows developers to build, deploy, and scale web, mobile, and API applications** without having to worry about managing the underlying infrastructure. 
+
+App Service simplifies the process of deploying and managing applications. Works as a PaaS (Platform as a Service).
 
  - **Supports different deployment options**, including code deployment from *Git, Azure DevOps*, or other source control systems.
  - **Offers automatic scaling based on application demand.**
@@ -93,7 +95,9 @@ You can read more about Azure App Service [here](https://learn.microsoft.com/en-
 You can read more about Azure Application Gateway [here](https://learn.microsoft.com/en-us/azure/application-gateway/).<br><br>
 
 ## Batch
-**Cloud-based job scheduling service**, you can distribute your tasks across a pool of VMs and easily scale resources up or down. Here's some useful things about it:
+**Cloud-based job scheduling service**, you can distribute your tasks across a pool of VMs and easily scale resources up or down. 
+
+Here's some useful things about it:
  - Allows you to **divide your workload** into smaller tasks that can run in parallel.
  - You can **choose from a wide range of VM configurations** to meet your specific requirements.
  - **You define a pool of VMs** with specific configurations and sizes, and Azure Batch automatically provisions and manages the VMs for you.

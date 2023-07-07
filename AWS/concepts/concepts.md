@@ -164,3 +164,17 @@ Whether you are running a website, a mobile application, or an API, CloudFront c
  - Supports origin failover, which allows you to set up multiple origin servers for redundancy.
 
  Here you can read more about [CloudFront](https://docs.aws.amazon.com/cloudfront/index.html).<br><br>
+
+ <a name="rds"></a>
+## RDS (Relational Database Service)
+
+Also called Amazon Relational Database Service, is a managed database service that simplifies the process of setting up, operating, and scaling relational databases in the cloud.
+
+ - Enables automated backups of your databases, which are retained for a user-defined period.
+ - Allows you to create read replicas of your databases, which are asynchronously replicated copies of your primary database.
+ - Supports certain extensions specific to different database engines.
+ - Amazon Aurora, a MySQL and PostgreSQL-compatible database engine, offers a serverless option within RDS.
+ - Provides a database proxy feature that allows you to manage connections to your RDS databases.
+ - Offers a Data API that allows you to interact with your databases using HTTP-based API calls instead of traditional database connections.
+ 
+ Here you can read more about [Relational Database Service](https://docs.aws.amazon.com/rds/index.html).<br><br>

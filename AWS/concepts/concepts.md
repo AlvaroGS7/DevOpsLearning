@@ -148,86 +148,86 @@ Here's some useful features about S3:
  - Allows you to retrieve only a subset of data from an object by using **SQL-like queries**.
 
  Here you can read more about [Simple Storage Service](https://docs.aws.amazon.com/s3/index.html).<br><br>
+ 
+## CloudFront
+A **content delivery network (CDN) service** that delivers content to users with low latency and high data transfer speeds.
 
- ## CloudFront
-A content delivery network (CDN) service that delivers content to users with low latency and high data transfer speeds.
+Whether you are running a website, a mobile application, or an API, **CloudFront can significantly enhance the performance and user experience** of your applications by bringing content closer to your end users.
 
-Whether you are running a website, a mobile application, or an API, CloudFront can significantly enhance the performance and user experience of your applications by bringing content closer to your end users.
-
- - Offers an optional feature called Origin Shield, which provides an
+ - Offers an optional feature called **Origin Shield**, which provides an
    additional caching layer between the edge locations and your origin
    server.
- - Provides detailed logs and real-time monitoring capabilities.
- - Integrates with AWS Lambda through a feature called Lambda@Edge.
- - Provides a feature called Geo-Restriction, which allows you to control the countries from which your content can be accessed.
- - Supports field-level encryption, which enables you to encrypt specific fields in your web forms or API requests.
- - Supports origin failover, which allows you to set up multiple origin servers for redundancy.
+ - Provides **detailed logs and real-time monitoring** capabilities.
+ - Integrates with AWS Lambda through a feature called **Lambda@Edge.**
+ - Provides a feature called **Geo-Restriction**, which allows you to control the countries from which your content can be accessed.
+ - Supports **field-level encryption**, which enables you to encrypt specific fields in your web forms or API requests.
+ - Supports **origin failover**, which allows you to set up multiple origin servers for redundancy.
 
  Here you can read more about [CloudFront](https://docs.aws.amazon.com/cloudfront/index.html).<br><br>
 
- <a name="rds"></a>
+<a name="rds"></a>
 ## RDS (Relational Database Service)
 
-Also called Amazon Relational Database Service, is a managed database service that simplifies the process of setting up, operating, and scaling relational databases in the cloud.
+Also called **Amazon Relational Database Service**, is a **managed database service** that simplifies the process of setting up, operating, and scaling relational databases in the cloud.
 
- - Enables automated backups of your databases, which are retained for a user-defined period.
- - Allows you to create read replicas of your databases, which are asynchronously replicated copies of your primary database.
- - Supports certain extensions specific to different database engines.
- - Amazon Aurora, a MySQL and PostgreSQL-compatible database engine, offers a serverless option within RDS.
- - Provides a database proxy feature that allows you to manage connections to your RDS databases.
- - Offers a Data API that allows you to interact with your databases using HTTP-based API calls instead of traditional database connections.
+ - **Enables automated backups of your databases**, which are retained for a user-defined period.
+ - **Allows you to create read replicas of your databases**, which are asynchronously replicated copies of your primary database.
+ - **Supports certain extensions specific to different database engines.**
+ - **Amazon Aurora**, a MySQL and PostgreSQL-compatible database engine, offers a serverless option within RDS.
+ - Provides a **database proxy feature** that allows you to manage connections to your RDS databases.
+ - **Offers a Data API that allows you to interact with your databases** using HTTP-based API calls instead of traditional database connections.
  
  Here you can read more about [Relational Database Service](https://docs.aws.amazon.com/rds/index.html).<br><br>
-
+ 
 <a name="glue"></a>
 ## Glue
-A fully managed extract, transform, and load (ETL) service pthat enables you to prepare and transform your data for analytics, data warehousing, machine learning, and other data-driven tasks.
+**A fully managed extract, transform, and load (ETL) service** pthat enables you to prepare and transform your data for analytics, data warehousing, machine learning, and other data-driven tasks.
 
- - Provides a centralized metadata repository called the Data Catalog.
- - Offers a visual interface and built-in ETL jobs that allow you to transform and clean your data.
- - Can automatically discover the schema and structure of your data by crawling the data sources.
- - Provides a serverless execution environment for running ETL jobs.
- - Introduces the concept of Dynamic Frames, which are an extension of Apache Spark DataFrames.
- - Supports schema evolution, allowing you to handle changes in the schema of your data over time.
- - Supports connection sharing across multiple ETL jobs.
- - Offers custom classifiers, which allow you to define your own logic for classifying and cataloging data.
+ - Provides a **centralized metadata repository called the Data Catalog.**
+ - Offers a **visual interface and built-in ETL jobs** that allow you to transform and clean your data.
+ - Can **automatically discover the schema and structure of your data** by crawling the data sources.
+ - Provides a **serverless execution environment** for running ETL jobs.
+ - Introduces the concept of **Dynamic Frames**, which are an extension of Apache Spark DataFrames.
+ - **Supports schema evolution**, allowing you to handle changes in the schema of your data over time.
+ - **Supports connection sharing across multiple ETL jobs.**
+ - **Offers custom classifiers**, which allow you to define your own logic for classifying and cataloging data.
 
  Here you can read more about [AWS Glue](https://docs.aws.amazon.com/glue/index.html).<br><br>
 
 ## Lambda
-A serverless compute service that allows you to run your code without provisioning or managing servers, and you only pay for the compute time consumed by your code. 
+A **serverless compute service** that allows you to run your code without provisioning or managing servers, and you only pay for the compute time consumed by your code. 
 
-AWS Lambda supports a wide range of programming languages and can be used for various types of applications and workloads.
+AWS Lambda **supports a wide range of programming languages** and can be used for various types of applications and workloads.
 
- - Functions are triggered by events from various AWS services.
- - Supports multiple programming languages, including Python, JavaScript (Node.js), Java, C#, Ruby, and Go.
- - Functions are stateless, meaning they don't maintain any persistent state between invocations.
- - Provides built-in support for several programming languages, you can also create custom runtimes.
- - Has a feature called "provisioned concurrency" that allows you to allocate a set number of concurrent executions to your functions.
- - Lambda now supports running functions inside custom Virtual Private Clouds (VPCs).
- - Extensions are companion processes that can run alongside your Lambda functions.
+ - **Functions are triggered by events** from various AWS services.
+ - **Supports multiple programming languages**, including *Python, JavaScript (Node.js), Java, C#, Ruby, and Go.*
+ - **Functions are stateless**, meaning they don't maintain any persistent state between invocations.
+ - Provides **built-in support for several programming languages**, you can also create custom runtimes.
+ - Has a feature called **provisioned concurrency**, that allows you to allocate a set number of concurrent executions to your functions.
+ - Lambda **now supports running functions inside custom Virtual Private Clouds (VPCs).**
+ - **Extensions are companion processes** that can run alongside your Lambda functions.
 
  Here you can read more about [AWS Lambda](https://docs.aws.amazon.com/lambda/index.html).<br><br>
 
 ## Step Functions
 
-A serverless workflow orchestration service that allows you to coordinate and sequence multiple AWS services. With Step Functions, you can visually define and execute workflows, known as state machines, that model complex business processes or application workflows.
+**A serverless workflow orchestration service** that allows you to coordinate and sequence multiple AWS services. With Step Functions, you can **visually define and execute workflows**, known as state machines, that model complex business processes or application workflows.
 
- - Uses state machines to represent workflows.
- - Provides built-in execution control capabilities. 
- - You can define conditions, timeouts, retries, and error handling for each state in your state machine.
- - Supports both parallel and sequential execution of tasks within a workflow.
- - Enables event-driven workflows.
- - Offers a local development and testing environment called "Step Functions Local".
- - Supports the concept of nested workflows or sub-workflows.
+ - **Uses state machines to represent workflows.**
+ - Provides **built-in execution control** capabilities. 
+ - **You can define conditions, timeouts, retries, and error handling** for each state in your state machine.
+ - **Supports both parallel and sequential execution** of tasks within a workflow.
+ - **Enables event-driven workflows.**
+ - Offers a local development and testing environment called **"Step Functions Local".**
+ - **Supports the concept of nested workflows** or sub-workflows.
 
  Here you can read more about [Step Functions](https://docs.aws.amazon.com/step-functions/index.html).<br><br>
 
- ## Kinesis
+## Kinesis
 
-A suite of fully managed services that enables real-time data streaming and processing at scale. 
+**A suite of fully managed services** that enables real-time data streaming and processing at scale. 
 
-It is designed to ingest, process, and analyze large amounts of data in real-time, allowing you to build applications that require immediate insights and responsiveness to streaming data.
+**It is designed to ingest, process, and analyze large amounts of data in real-time**, allowing you to build applications that require immediate insights and responsiveness to streaming data.
 
 There are three primary services within AWS Kinesis:
 
@@ -237,11 +237,11 @@ There are three primary services within AWS Kinesis:
 
 Here's some featureas about Kinesis:
 
- - Kinesis Data Streams allows you to specify the retention period for your data.
- - Offers a feature called "Enhanced Fan-Out" that allows you to build applications with low-latency data processing and real-time data delivery.
- - Provides built-in support for time series data using a feature called "time-based partitioning".
- - Allows you to reference external data sets, known as "reference data," within your SQL queries.
- - Supports continuous querying, which allows you to continuously process and analyze the incoming streaming data.
- - Automatically maintains checkpoints to track the processing progress of the streaming data.
+ - Kinesis Data Streams allows you to **specify the retention period for your data.**
+ - Offers a feature called "**Enhanced Fan-Out**" that allows you to build applications with low-latency data processing and real-time data delivery.
+ - Provides **built-in support for time series data** using a feature called "time-based partitioning".
+ - **Allows you to reference external data sets**, known as "reference data," within your SQL queries.
+ - **Supports continuous querying**, which allows you to continuously process and analyze the incoming streaming data.
+ - **Automatically maintains checkpoints** to track the processing progress of the streaming data.
 
  Here you can read more about [Kinesis](https://docs.aws.amazon.com/kinesis/index.html).<br><br>

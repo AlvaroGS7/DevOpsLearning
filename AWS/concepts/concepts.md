@@ -208,3 +208,17 @@ AWS Lambda supports a wide range of programming languages and can be used for va
  - Extensions are companion processes that can run alongside your Lambda functions.
 
  Here you can read more about [AWS Lambda](https://docs.aws.amazon.com/lambda/index.html).<br><br>
+
+## Step Functions
+
+A serverless workflow orchestration service that allows you to coordinate and sequence multiple AWS services. With Step Functions, you can visually define and execute workflows, known as state machines, that model complex business processes or application workflows.
+
+ - Uses state machines to represent workflows.
+ - Provides built-in execution control capabilities. 
+ - You can define conditions, timeouts, retries, and error handling for each state in your state machine.
+ - Supports both parallel and sequential execution of tasks within a workflow.
+ - Enables event-driven workflows.
+ - Offers a local development and testing environment called "Step Functions Local".
+ - Supports the concept of nested workflows or sub-workflows.
+
+ Here you can read more about [Step Functions](https://docs.aws.amazon.com/step-functions/index.html).<br><br>

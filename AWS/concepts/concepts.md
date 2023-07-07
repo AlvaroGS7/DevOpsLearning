@@ -148,3 +148,19 @@ Here's some useful features about S3:
  - Allows you to retrieve only a subset of data from an object by using **SQL-like queries**.
 
  Here you can read more about [Simple Storage Service](https://docs.aws.amazon.com/s3/index.html).<br><br>
+
+ ## CloudFront
+A content delivery network (CDN) service that delivers content to users with low latency and high data transfer speeds.
+
+Whether you are running a website, a mobile application, or an API, CloudFront can significantly enhance the performance and user experience of your applications by bringing content closer to your end users.
+
+ - Offers an optional feature called Origin Shield, which provides an
+   additional caching layer between the edge locations and your origin
+   server.
+ - Provides detailed logs and real-time monitoring capabilities.
+ - Integrates with AWS Lambda through a feature called Lambda@Edge.
+ - Provides a feature called Geo-Restriction, which allows you to control the countries from which your content can be accessed.
+ - Supports field-level encryption, which enables you to encrypt specific fields in your web forms or API requests.
+ - Supports origin failover, which allows you to set up multiple origin servers for redundancy.
+
+ Here you can read more about [CloudFront](https://docs.aws.amazon.com/cloudfront/index.html).<br><br>

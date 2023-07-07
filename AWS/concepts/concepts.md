@@ -193,3 +193,18 @@ A fully managed extract, transform, and load (ETL) service pthat enables you to 
  - Offers custom classifiers, which allow you to define your own logic for classifying and cataloging data.
 
  Here you can read more about [AWS Glue](https://docs.aws.amazon.com/glue/index.html).<br><br>
+
+## Lambda
+A serverless compute service that allows you to run your code without provisioning or managing servers, and you only pay for the compute time consumed by your code. 
+
+AWS Lambda supports a wide range of programming languages and can be used for various types of applications and workloads.
+
+ - Functions are triggered by events from various AWS services.
+ - Supports multiple programming languages, including Python, JavaScript (Node.js), Java, C#, Ruby, and Go.
+ - Functions are stateless, meaning they don't maintain any persistent state between invocations.
+ - Provides built-in support for several programming languages, you can also create custom runtimes.
+ - Has a feature called "provisioned concurrency" that allows you to allocate a set number of concurrent executions to your functions.
+ - Lambda now supports running functions inside custom Virtual Private Clouds (VPCs).
+ - Extensions are companion processes that can run alongside your Lambda functions.
+
+ Here you can read more about [AWS Lambda](https://docs.aws.amazon.com/lambda/index.html).<br><br>

@@ -178,3 +178,18 @@ Also called Amazon Relational Database Service, is a managed database service th
  - Offers a Data API that allows you to interact with your databases using HTTP-based API calls instead of traditional database connections.
  
  Here you can read more about [Relational Database Service](https://docs.aws.amazon.com/rds/index.html).<br><br>
+
+<a name="glue"></a>
+## Glue
+A fully managed extract, transform, and load (ETL) service pthat enables you to prepare and transform your data for analytics, data warehousing, machine learning, and other data-driven tasks.
+
+ - Provides a centralized metadata repository called the Data Catalog.
+ - Offers a visual interface and built-in ETL jobs that allow you to transform and clean your data.
+ - Can automatically discover the schema and structure of your data by crawling the data sources.
+ - Provides a serverless execution environment for running ETL jobs.
+ - Introduces the concept of Dynamic Frames, which are an extension of Apache Spark DataFrames.
+ - Supports schema evolution, allowing you to handle changes in the schema of your data over time.
+ - Supports connection sharing across multiple ETL jobs.
+ - Offers custom classifiers, which allow you to define your own logic for classifying and cataloging data.
+
+ Here you can read more about [AWS Glue](https://docs.aws.amazon.com/glue/index.html).<br><br>

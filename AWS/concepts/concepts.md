@@ -222,3 +222,26 @@ A serverless workflow orchestration service that allows you to coordinate and se
  - Supports the concept of nested workflows or sub-workflows.
 
  Here you can read more about [Step Functions](https://docs.aws.amazon.com/step-functions/index.html).<br><br>
+
+ ## Kinesis
+
+A suite of fully managed services that enables real-time data streaming and processing at scale. 
+
+It is designed to ingest, process, and analyze large amounts of data in real-time, allowing you to build applications that require immediate insights and responsiveness to streaming data.
+
+There are three primary services within AWS Kinesis:
+
+ - **Amazon Kinesis Data Streams**: Allows you to continuously capture and store streaming data from various sources, such as website clickstreams, IoT devices, log data, social media feeds, and more.
+ - **Amazon Kinesis Data Firehose**: Simplifies the process of loading streaming data into storage and analytics services.
+ - **Amazon Kinesis Data Analytics**: Allows you to process and analyze streaming data in real-time using standard SQL queries.
+
+Here's some featureas about Kinesis:
+
+ - Kinesis Data Streams allows you to specify the retention period for your data.
+ - Offers a feature called "Enhanced Fan-Out" that allows you to build applications with low-latency data processing and real-time data delivery.
+ - Provides built-in support for time series data using a feature called "time-based partitioning".
+ - Allows you to reference external data sets, known as "reference data," within your SQL queries.
+ - Supports continuous querying, which allows you to continuously process and analyze the incoming streaming data.
+ - Automatically maintains checkpoints to track the processing progress of the streaming data.
+
+ Here you can read more about [Kinesis](https://docs.aws.amazon.com/kinesis/index.html).<br><br>

@@ -134,9 +134,17 @@ Here's some useful features about it:
 
 <a name="s3"></a>
 ## S3 (Simple Storage Service)
-Offers scalability, durability, and security to store and retrieve any amount of data from anywhere on the web. 
+Offers scalability, durability, and security to **store and retrieve any amount of data from anywhere on the web.** 
 
-Used for a variety of storage use cases, ranging from simple backup and archiving to hosting static websites and powering data lakes for big data analytics.
+Used for a variety of storage use cases, **ranging from simple backup and archiving to hosting static websites** and powering data lakes for big data analytics.
 
+Here's some useful features about S3:
+
+ - **Offers lifecycle management capabilities**, which allow you to automate the movement of objects between different storage classes.
+ - **Supports versioning**, which enables you to keep multiple versions of an object in the same bucket.
+ - **Can generate event notifications** when specific actions occur, such as object creation, deletion, or restoration.
+ - **Uses transfer acceleration**, that enables faster data uploads and downloads to and from S3.
+ - **Provides eventual consistency** for overwrite PUTS and DELETES.
+ - Allows you to retrieve only a subset of data from an object by using **SQL-like queries**.
 
  Here you can read more about [Simple Storage Service](https://docs.aws.amazon.com/s3/index.html).<br><br>

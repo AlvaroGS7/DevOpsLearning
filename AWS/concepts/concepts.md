@@ -273,3 +273,20 @@ This is suitable for organizations looking to run containerized applications wit
  - **Supports OpenID Connect (OIDC)** for cluster authentication.
 
 Here you can read more about [AWS EKS](https://docs.aws.amazon.com/eks/latest/userguide/getting-started.html).<br><br>
+
+<a name="cloudwatch"></a>
+## Cloudwatch
+
+**Monitoring and observability service** that enables you to **collect and track metrics, collect and monitor log files**, and set alarms for your AWS resources and applications in real-time.
+
+**Fundamental tool for managing** your AWS infrastructure, providing real-time visibility and ensuring that your applications and services run smoothly.
+
+ - **Collects and stores various metrics from AWS resources** such as *EC2 instances, RDS databases, S3 buckets*, and more. 
+	 - These metrics include *CPU utilization, network traffic, disk I/O*, and custom application-specific metrics.
+ - Allows you to create **customized dashboards** to visualize your metrics in real-time.
+ - **Set up notifications** based on predefined thresholds for your metrics.
+ - Set **retention policies** for your CloudWatch log data, determining how long it is stored and you can use Amazon S3 for long-term storage and compliance purposes.
+ - Supports **cross-account access**, allowing you to collect and view metrics and logs from multiple AWS accounts in a centralized manner.
+ - **CloudWatch Synthetics** enables you to monitor your application endpoints and workflows using **canaries** (configurable scripts that mimic user interactions).
+
+Here you can read more about [AWS CloudWatch](https://docs.aws.amazon.com/cloudwatch/index.html).<br><br>

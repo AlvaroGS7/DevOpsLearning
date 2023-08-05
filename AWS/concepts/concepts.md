@@ -25,11 +25,10 @@
 - **2.16 -** [SNS (Simple Notification Service)](#sns)
 - **2.17 -** [Sagemaker](#sagemaker)
 - **2.18 -** [CloudTrail](#cloudtrail)
-- **2.19 -** [SQS (Simple Queue Service)](#sqs)
-- **2.20 -** [GuardDuty](#guardduty)
-- **2.21 -** [Aurora](#aurora)
-- **2.22 -** [EBS (Elastic Block Store)](#ebs)
-- **2.23 -** [IoT Core](#iot-core)
+- **2.19 -** [GuardDuty](#guardduty)
+- **2.20 -** [Aurora](#aurora)
+- **2.21 -** [EBS (Elastic Block Store)](#ebs)
+- **2.22 -** [IoT Core](#iot-core)
 
 ## What is AWS
 
@@ -259,3 +258,18 @@ Here's some **key features** about SQS:
  - You can create and manage SQS queues using **AWS CloudFormation.**
  
   Here you can read more about [AWS SQS](https://docs.aws.amazon.com/sqs/index.html).<br><br>
+
+  <a name="eks"></a>
+## EKS (Elastic Kubernetes Service)
+Fully managed **container orchestration service** that allows you to **deploy, manage, and scale containerized applications using Kubernetes**, an open-source container orchestration platform.
+
+This is suitable for organizations looking to run containerized applications with Kubernetes but prefer to offload the management of the Kubernetes control plane to AWS.
+
+ - **Takes care of the Kubernetes control plane**, which includes the API server, etcd, and other critical components.
+ - **Compatible with standard Kubernetes**, which means you can use familiar Kubernetes tools and APIs to interact with the EKS cluster.
+ - **Integrates with other AWS services**, such as *Amazon ECR (Elastic Container Registry)* for container image storage, *AWS IAM* for authentication, and *AWS CloudTrail* for auditing and logging.
+ - Offers an option to **run Kubernetes pods on AWS Fargate**, a serverless compute engine for containers.
+ - Offers **support for multiple Kubernetes versions.**
+ - **Supports OpenID Connect (OIDC)** for cluster authentication.
+
+Here you can read more about [AWS EKS](https://docs.aws.amazon.com/eks/latest/userguide/getting-started.html).<br><br>

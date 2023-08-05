@@ -243,3 +243,19 @@ Here's some featureas about Kinesis:
  - **Automatically maintains checkpoints** to track the processing progress of the streaming data.
 
  Here you can read more about [Kinesis](https://docs.aws.amazon.com/kinesis/index.html).<br><br>
+
+<a name="sqs"></a>
+## SQS (Simple Queue Service)
+**Fully managed message queuing** that allows you to scale distributed systems by providing a reliable way to **send, store, and receive messages** between various software microservices.
+
+Here's some **key features** about SQS:
+
+ - Provides a message queue model, where **messages are sent by producers and retrieved by consumers**.
+ - Is **designed to be distributed**, making it highly available and fault-tolerant. 
+ - It **replicates messages across multiple availability zones**, ensuring high durability.
+ - Messages sent to an SQS queue are **retained until they are explicitly deleted** by consumers or reach their maximum retention period.
+ - **Offers FIFO (First-In-First-Out) queues.**
+ - **Supports message deduplication**, which allows you to ensure that duplicate messages are not sent to the queue within a specific time window.
+ - You can create and manage SQS queues using **AWS CloudFormation.**
+ 
+  Here you can read more about [AWS SQS](https://docs.aws.amazon.com/sqs/index.html).<br><br>

@@ -307,3 +307,22 @@ Commonly used in a wide range of applications, including mobile app push notific
  - Allows you to **send mobile push notifications with custom payload data.**
 
 Here you can read more about [AWS SNS](https://docs.aws.amazon.com/cloudwatch/index.html).<br><br>
+
+<a name="sagemaker"></a>
+## Sagemaker
+
+**Machine learning service** that enables data scientists and developers to build, train, and deploy machine learning models at scale without the need for managing the underlying infrastructure.
+
+Simplifies the end-to-end machine learning workflow, from data preparation to model deployment.
+
+Widely used across various industries and applications, including recommendation systems, fraud detection, image and speech recognition, forecasting, and natural language processing.
+
+ - Provides a managed **Jupyter Notebook environment** that allows data scientists to explore and analyze data, prototype machine learning models, and collaborate on projects.
+ - Offers **data preprocessing capabilities** to clean, transform, and prepare data for training models.
+ - You can **bring your own custom algorithms and libraries.**
+ - Allows you to **create and manage training jobs**, which distribute and parallelize the training process across multiple instances to accelerate model training.
+ - Once the model is trained, SageMaker **can host the model as an endpoint**, making it accessible for real-time predictions or batch inference. 
+ - Allows you to **deploy multiple models on a single endpoint.**
+ - Allows you to **bring your own Docker containers** for training and inference.
+
+Here you can read more about [AWS Sagemaker](https://docs.aws.amazon.com/sagemaker/index.html).<br><br>

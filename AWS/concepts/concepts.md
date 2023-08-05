@@ -290,3 +290,20 @@ Here you can read more about [AWS EKS](https://docs.aws.amazon.com/eks/latest/us
  - **CloudWatch Synthetics** enables you to monitor your application endpoints and workflows using **canaries** (configurable scripts that mimic user interactions).
 
 Here you can read more about [AWS CloudWatch](https://docs.aws.amazon.com/cloudwatch/index.html).<br><br>
+
+<a name="sns"></a>
+## SNS (Simple Notification Service)
+**Messaging service** that enables you to send messages or notifications to distributed systems, mobile devices, email, and other endpoints in a flexible and scalable manner.
+
+Simplifies the process of sending messages to multiple recipients simultaneously, making it a valuable tool for building event-driven architectures and real-time communication applications.
+
+Commonly used in a wide range of applications, including mobile app push notifications, email notifications, monitoring and alerting systems, and building event-driven microservices architectures.
+
+ - **Uses topics as communication channels.**
+ - Supports **multiple communication protocols**, including *HTTP/HTTPS, Amazon SQS (Simple Queue Service), SMS, email, mobile push notifications, and AWS Lambda functions.*
+ - **Enables fanout messaging**, meaning you can send a single message to a topic.
+ - Provides the ability to **track the delivery status** of messages to subscribers.
+ - Automatically **handles SMS opt-out management**, respecting the Do Not Disturb (DND) preferences of recipients.
+ - Allows you to **send mobile push notifications with custom payload data.**
+
+Here you can read more about [AWS SNS](https://docs.aws.amazon.com/cloudwatch/index.html).<br><br>

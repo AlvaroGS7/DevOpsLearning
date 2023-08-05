@@ -326,3 +326,20 @@ Widely used across various industries and applications, including recommendation
  - Allows you to **bring your own Docker containers** for training and inference.
 
 Here you can read more about [AWS Sagemaker](https://docs.aws.amazon.com/sagemaker/index.html).<br><br>
+
+<a name="cloudtrail"></a>
+## CloudTrail
+**Service that enables you to monitor, log, and retain account activity** related to your AWS resources.
+
+Provides **detailed information about actions taken by users, roles, or services** within your AWS account, making it a valuable tool for security, compliance, and operational auditing.
+
+By providing a **detailed record of actions taken within your AWS environment**, CloudTrail helps you ensure security, track changes, troubleshoot issues, and maintain compliance with industry regulations.
+
+ - **Records API activity**, management console actions, and other account-level activity across all AWS services.
+ - **Captures management events** related to AWS management activities, such as AWS Management Console sign-ins, changes to IAM policies, and security group modifications.
+ - Can be configured to **log S3 data events** at the object level.
+ - Can **capture data events for AWS Lambda** functions.
+ - Supports an **Event Selector feature** that allows you to choose specific events and data attributes to log.
+ - Can enable **trail log file validation** for AWS CloudTrail trails.
+
+Here you can read more about [AWS CloudTrail](https://docs.aws.amazon.com/es_es/awscloudtrail/latest/userguide/cloudtrail-user-guide.html).<br><br>

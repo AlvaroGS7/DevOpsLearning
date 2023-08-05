@@ -1,1 +1,1 @@
-This is just a placeholder line.
+This is just a placeholder text.

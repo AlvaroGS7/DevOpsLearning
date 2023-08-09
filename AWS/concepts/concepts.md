@@ -405,3 +405,20 @@ EBS offers several **volume types** optimized for different workloads:
  
  Here you can read more about [AWS Elastic Block Store](https://docs.aws.amazon.com/es_es/AWSEC2/latest/UserGuide/AmazonEBS.html).<br><br>
 
+<a name="iot-core"></a>
+## IoT Core
+
+**Managed cloud service that enables you to securely connect, manage, and interact with Internet of Things (IoT) devices and applications.** 
+
+Provides a set of powerful tools and features to build scalable, reliable, and secure IoT solutions. AWS IoT Core is a versatile service that can be used for a wide range of IoT applications, from simple device monitoring and control to complex, data-intensive solutions.
+
+ - Allows IoT devices to **securely connect and communicate** with the cloud.
+ - Provides a **device registry where you can register and manage information** about your IoT devices, such as metadata, attributes, and authentication credentials.
+ - The **Rules Engine allows you to define rules** that process and route messages from IoT devices.
+ - Offers **Device SDKs for popular programming languages** like *Java, Python, JavaScript (Node.js), and C++* to simplify device integration and communication with the cloud.
+ - Offers fleet provisioning to help **automate the process of securely provisioning large numbers of devices.**
+ - **Device Shadows enable virtual representations of IoT devices in the cloud.**
+ - **Allows you to use custom authentication methods** for your devices, enabling you to implement unique authentication mechanisms that suit your use case.
+ - **IoT Device Defender** is a service that works in conjunction with IoT Core to continuously **audit and monitor the security of your IoT devices.**
+
+ Here you can read more about [AWS IoT Core](https://docs.aws.amazon.com/iot/index.html).<br><br>

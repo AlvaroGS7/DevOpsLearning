@@ -365,7 +365,7 @@ Here you can read more about [AWS GuardDuty](https://docs.aws.amazon.com/guarddu
 <a name="aurora"></a>
 ## Aurora
 
-Relational database engine provided by Amazon Web Services (AWS). It is designed to offer high performance, availability, and scalability while maintaining compatibility with popular open-source databases like MySQL and PostgreSQL.
+**Relational database engine designed to offer high performance, availability, and scalability** while maintaining compatibility with popular open-source databases like MySQL and PostgreSQL.
 
 Aurora has gained popularity among businesses looking for a high-performance, reliable, and scalable relational database solution in the cloud.
 

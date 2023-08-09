@@ -149,3 +149,21 @@ Here's some useful features about S3:
  - Allows you to retrieve only a subset of data from an object by using **SQL-like queries**.
 
  Here you can read more about [Simple Storage Service](https://docs.aws.amazon.com/s3/index.html).<br><br>
+
+ <a name="GuardDuty"></a>
+## GuardDuty
+Threat detection service designed to help users protect their AWS resources and workloads by continuously monitoring and analyzing the activity and behavior within their AWS environment to detect potential security threats and vulnerabilities.
+
+Uses machine learning algorithms and anomaly detection techniques to identify unusual or suspicious activities that might indicate malicious behavior.
+
+Powerful tool for enhancing the security of your AWS environment by automatically detecting potential threats and vulnerabilities.
+
+ - **Examines various data sources**, including *AWS CloudTrail logs, VPC Flow Logs, and DNS logs,* to identify patterns of activity that could indicate unauthorized access, compromised instances, data exfiltration, and other suspicious behavior.
+ - Provides a **centralized dashboard** where you can view and manage alerts, investigate potential incidents, and assess the severity of detected threats.
+ - Is a **managed service**, which means AWS handles much of the operational overhead such as infrastructure provisioning and scaling.
+ - **Can be enabled at the AWS Organizations level.**
+ - **Automatically aggregates similar findings**, reducing noise and making it easier to focus on the most important alerts.
+ - You have the option to **snooze or suppress certain findings** temporarily if you believe they are false positives or are related to expected behavior.
+ - You can use **AWS Lambda functions to automate responses** to GuardDuty findings.
+
+Here you can read more about [AWS GuardDuty](https://docs.aws.amazon.com/guardduty/index.html).<br><br>

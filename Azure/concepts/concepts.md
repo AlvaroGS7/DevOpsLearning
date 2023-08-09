@@ -56,7 +56,7 @@ If you need more help after reading, you can read the official doc [here](https:
  - **B2B and B2C Scenarios**, Business-to-Business allows organizations to share resources with external users. Business-to-Customers enables organizations to provide identity and access management for customer.
  - Allows organizations to add **conditional access** controls based on conditions such as user location, device type, or risk level.
  - **Provides good security features**, including threat detection, risk-based authentication, and integration with *Azure Active Directory Identity Protection.*
- -
+
 You can read more about Azure AD [here](https://learn.microsoft.com/en-us/azure/active-directory/).<br><br>
 
 ## API Management

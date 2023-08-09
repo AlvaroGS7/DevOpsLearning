@@ -381,3 +381,27 @@ Aurora has gained popularity among businesses looking for a high-performance, re
  - 
 Here you can read more about [AWS Aurora](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/CHAP_AuroraOverview.html).<br><br>
 
+<a name="ebs"></a>
+## EBS (Elastic Block Store)
+**Scalable block storage service** designed for **use with Amazon EC2 instances** and allows you to **create and attach persistent block storage volumes to your EC2 instances**, providing the ability to store data that persists even after the instance is stopped or terminated.
+
+EBS volumes are suitable for a wide range of use cases, from storing operating system data to databases and application data.
+
+EBS offers several **volume types** optimized for different workloads:
+
+ -   **General Purpose SSD (gp2):** Balanced performance for a wide range of workloads.
+ -   **Provisioned IOPS SSD (io1):** High-performance volumes with customizable input/output operations per second (IOPS).
+ -   **Throughput Optimized HDD (st1):** High throughput, low-cost volumes for frequently accessed, large datasets.
+ -   **Cold HDD (sc1):** Lower-cost volumes for infrequently accessed workloads with large datasets.
+ -   **Magnetic (standard):** Legacy magnetic volumes with a cost-effective option for small workloads.
+ 
+ Here's some general features about EBS:
+ - EBS volumes support snapshots, which are point-in-time backups of the volume's data.
+ - Snapshots are stored in Amazon S3, providing durability and redundancy.
+ - Volumes and snapshots can be encrypted using AWS Key Management Service (KMS) keys, enhancing data security and compliance.
+ - You can resize EBS volumes without downtime.
+ - Some EBS volume types, such as io1 and gp2, support multi-attach, which allows a single volume to be attached to multiple EC2 instances simultaneously.
+ - EBS volumes can be used as boot volumes for EC2 instances.
+ 
+ Here you can read more about [AWS Elastic Block Store](https://docs.aws.amazon.com/es_es/AWSEC2/latest/UserGuide/AmazonEBS.html).<br><br>
+

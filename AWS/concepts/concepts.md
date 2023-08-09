@@ -344,7 +344,7 @@ By providing a **detailed record of actions taken within your AWS environment**,
 
 Here you can read more about [AWS CloudTrail](https://docs.aws.amazon.com/es_es/awscloudtrail/latest/userguide/cloudtrail-user-guide.html).<br><br>
 
-<a name="GuardDuty"></a>
+<a name="guardduty"></a>
 ## GuardDuty
 Threat detection service designed to help users protect their AWS resources and workloads by continuously monitoring and analyzing the activity and behavior within their AWS environment to detect potential security threats and vulnerabilities.
 
@@ -361,3 +361,23 @@ Powerful tool for enhancing the security of your AWS environment by automaticall
  - You can use **AWS Lambda functions to automate responses** to GuardDuty findings.
 
 Here you can read more about [AWS GuardDuty](https://docs.aws.amazon.com/guardduty/index.html).<br><br>
+
+<a name="aurora"></a>
+## Aurora
+
+Relational database engine provided by Amazon Web Services (AWS). It is designed to offer high performance, availability, and scalability while maintaining compatibility with popular open-source databases like MySQL and PostgreSQL.
+
+Aurora has gained popularity among businesses looking for a high-performance, reliable, and scalable relational database solution in the cloud.
+
+ - **You can use familiar tools, libraries, and applications** with Aurora databases without major modifications.
+ - Allows you to **scale both compute and storage independently.**
+ - In the event of a primary instance failure, Aurora **can automatically promote a read replica to become the new primary instance**, reducing downtime and minimizing manual intervention.
+ - **Supports fast database cloning**, allowing you to create a new database instance that's a copy of an existing instance.
+ - **Aurora Serverless** is a deployment option that **automatically adjusts database capacity based on the workload.** It's ideal for unpredictable or variable workloads.
+ - **Aurora Global Databases allow you to create read replicas** in different regions.
+ - Uses a **distributed architecture** that enables it to parallelize query processing across hundreds of instances.
+ - Uses a d**istributed quorum-based storage system.**
+ - Allows you to define a **backtrack window**, which is a time range during which you can perform backtracks.
+ - 
+Here you can read more about [AWS Aurora](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/CHAP_AuroraOverview.html).<br><br>
+

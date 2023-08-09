@@ -5,4 +5,4 @@
 In this section I'll add everything that is Azure-related. When I create new directories and files, they'll be added to the index below.
 
 Here's a quick shortcut index:
- - [Concepts](/Azure/concepts/concepts.md)
+ - [Azure Concepts](/Azure/concepts/concepts.md)

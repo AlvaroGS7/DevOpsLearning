@@ -165,6 +165,8 @@ You can find more about Az Monitor [here](https://learn.microsoft.com/en-us/azur
  - **Supports message compression.**
  - **You can schedule messages to be delivered at a specific time.**
 
+Here you can read more about [Azure Service Bus](https://learn.microsoft.com/en-us/azure/service-bus-messaging/).<br><br>
+
 ## Sentinel
 Cloud-native **security information and event management (SIEM) service** that provides intelligent security analytics and threat intelligence to help organizations.
 
@@ -175,6 +177,8 @@ Cloud-native **security information and event management (SIEM) service** that p
  - **Introduces  Fusion**, that allows you to combine different types of data and security signals to create an analysis of potential threats.
  - **Uses Microsoft's threat intelligence and research** to provide early detection of emerging threats, including zero-day vulnerabilities.
  - **Can create custom hunting queries using Kusto Query Language (KQL).**
+
+Here you can read more about [Azure Sentinel](https://learn.microsoft.com/en-us/azure/sentinel/).<br><br>
 
 ## SQL Database
 **Managed, cloud-based relational database service** that provides a scalable and fully managed platform for hosting SQL Server databases.
@@ -189,6 +193,8 @@ Cloud-native **security information and event management (SIEM) service** that p
  - **Uses intelligent query processing** capabilities that optimize query performance.
  - **Has Query Store**, a powerful feature that captures and retains query execution plans and performance metrics.
 
+Here you can read more about [Azure SQL Database](https://learn.microsoft.com/en-us/azure/azure-sql/?view=azuresql-vm).<br><br>
+
 ## Storage
 **Scalable and highly available cloud storage service** which provides a reliable and secure platform for storing and accessing various types of data, such as files, blobs, tables, and queues.
 
@@ -199,6 +205,8 @@ Cloud-native **security information and event management (SIEM) service** that p
  - **Supports blob versioning**, which allows you to maintain and access previous versions of a blob.
  - **Can be used to host static websites.** You can upload HTML, CSS, JavaScript, and other web assets.
  - **Provides Shared Access Signatures**, which are secure tokens that grant limited access rights to your storage resources.
+
+Here you can read more about [Azure Storage](https://learn.microsoft.com/en-us/cli/azure/storage?view=azure-cli-latest).<br><br>
 
 ## IoT Hub
 Fully managed cloud service that **enables secure and scalable bidirectional communication between IoT devices and the cloud.**
@@ -211,3 +219,5 @@ Fully managed cloud service that **enables secure and scalable bidirectional com
  - **Allows you to configure custom endpoints** for cloud-to-device messaging.
  - **Provides message retention for device-to-cloud messages.**
  - **Azure IoT Hub's Device Provisioning Service** supports Enrollment Groups, which allow you to group devices together based on common enrollment criteria.
+
+Here you can read more about [Azure IoT Hub](https://learn.microsoft.com/en-us/azure/iot-hub/).<br><br>

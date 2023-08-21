@@ -46,3 +46,18 @@ The scalability, dependability, and cost-efficiency of GCP position it as an app
 In this section, I'll introduce you to some of the **fundamental concepts within Google Cloud Platform (GCP)**, which are essential for comprehending its core components and operational capabilities. These concepts lay the groundwork for effectively building and managing your cloud resources.
 
 For further assistance and in-depth information, you can refer to the **official documentation** available [here](https://cloud.google.com/docs).
+
+<a name="iam"></a>
+## IAM (Identity and Access Management)
+Powerful and flexible service that enables you to manage access to resources within Google Cloud Platform (GCP). 
+
+IAM allows you to **control who has what level of access to which resources, ensuring the security and confidentiality** of your cloud-based applications and data.
+
+ It's a fundamental component of GCP's security model, allowing you to implement the principle of least privilege and follow the principle of granting the minimum necessary permissions to perform a task.
+
+ - Supports the use of **conditions** to specify constraints on when a policy binding should be applied.
+ - **Actions and changes to IAM policies are logged**, allowing you to track who made changes and when.
+ - A **policy binding associates a role with a list of members (principals)**, granting them the permissions defined by that role.
+ - **Permissions are individual actions that can be granted to principals.** Each role is composed of one or more permissions.
+ - **Roles define a set of permissions that determine what actions a principal can perform on specific resources.**
+ - **Principals are entities that can make API requests to Google Cloud resources.**

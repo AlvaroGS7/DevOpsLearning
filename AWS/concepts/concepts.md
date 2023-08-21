@@ -30,7 +30,7 @@
 - **2.21 -** [EBS (Elastic Block Store)](#ebs)
 - **2.22 -** [IoT Core](#iot-core)
 
-## What is AWS
+# What is AWS
 
 AWS (Amazon Web Services), a leading cloud computing platform, offers a comprehensive range of services and features for businesses.
 

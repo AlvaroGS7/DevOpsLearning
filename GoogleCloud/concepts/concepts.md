@@ -45,6 +45,8 @@ Furthermore, GCP follows a consumption-based pricing model, enabling businesses 
 
 The scalability, dependability, and cost-efficiency of GCP position it as an appealing choice for entities of all sizes, enabling them to seamlessly expand their infrastructure, enhance operational efficiency, and navigate the realms of digital transformation.
 
-For more information, you can explore the [Google Cloud Documentation](https://cloud.google.com/docs).
-
 # Most Common Concepts
+
+In this section, I'll introduce you to some of the fundamental concepts within Google Cloud Platform (GCP), which are essential for comprehending its core components and operational capabilities. These concepts lay the groundwork for effectively building and managing your cloud resources.
+
+For further assistance and in-depth information, you can refer to the official documentation available [here](https://cloud.google.com/docs).

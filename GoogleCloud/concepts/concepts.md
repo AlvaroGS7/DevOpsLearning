@@ -101,9 +101,7 @@ Here you can find more about [Google Cloud Compute Engine](https://cloud.google.
 <a name="load-balancing"></a>
 ## Load Balancing
 
-Distributes incoming network traffic across multiple instances or services to ensure high availability, improve performance, and manage traffic effectively. It's a crucial component for building scalable and reliable applications on the cloud.
-
-Helps ensure that your applications are highly available, performant, and resilient to failures. By distributing traffic intelligently, it allows you to handle varying levels of load and ensures a smooth experience for users.
+**Distributes incoming network traffic across multiple instances or services to ensure high availability, improve performance, and manage traffic effectively.** It's a crucial component for building scalable and reliable applications on the cloud. By distributing traffic intelligently, **it allows you to handle varying levels of load** and ensures a smooth experience for users.
 
 The different types of Load Balancing scenarios are:
  - **Global Load Balancing**: Software-defined, fully distributed load balancer that directs traffic to backend instances across multiple regions.

@@ -97,3 +97,26 @@ Here you can find more about [Google Cloud Endpoints](https://cloud.google.com/e
  - Offers the option of **sole tenancy**, where you can have dedicated physical servers for your VM instances.
 
 Here you can find more about [Google Cloud Compute Engine](https://cloud.google.com/compute/docs?hl=es-419)<br><br>
+
+<a name="load-balancing"></a>
+## Load Balancing
+
+Distributes incoming network traffic across multiple instances or services to ensure high availability, improve performance, and manage traffic effectively. It's a crucial component for building scalable and reliable applications on the cloud.
+
+Helps ensure that your applications are highly available, performant, and resilient to failures. By distributing traffic intelligently, it allows you to handle varying levels of load and ensures a smooth experience for users.
+
+The different types of Load Balancing scenarios are:
+ - **Global Load Balancing**: Software-defined, fully distributed load balancer that directs traffic to backend instances across multiple regions.
+ - **HTTP(S) Load Balancing**: It can distribute traffic to backend instances or services based on advanced criteria such as URL path, host, and header values. It supports content-based routing, SSL termination, and cookie-based session affinity.
+ - **TCP/UDP Load Balancing**: Used for non-HTTP(S) traffic. It can distribute TCP and UDP traffic to backend instances or services based on IP address and port.
+ - **Internal Load Balancing**: Used to distribute traffic within a Virtual Private Cloud (VPC) network, making it accessible only to instances within the same network.
+ - **Network Load Balancing**: Regional load balancer that operates at Layer 4 (transport layer) and can distribute traffic based on IP protocol data.
+
+Here's some facts and utilities about Load Balancing:
+ - **Work seamlessly with Google Cloud's auto-scaling capabilities.**
+ - **Global load balancers use Anycast IP addresses**, meaning that they advertise the same IP address across multiple regions.
+ - **Global load balancers distribute traffic across multiple regions**, improving latency and providing disaster recovery capabilities.
+ - **HTTP(S) Load Balancing supports routing traffic based on URL paths, headers, and other attributes**, allowing for sophisticated traffic management.
+ - Load balancers **can use session affinity (sticky sessions)** to route subsequent requests from a client to the same backend instance, maintaining session context.
+
+Here you can find more about [Google Cloud Load Balancing](https://cloud.google.com/load-balancing/docs?hl=es-419)<br><br>

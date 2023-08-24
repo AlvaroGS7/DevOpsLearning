@@ -118,3 +118,17 @@ Here's some facts and utilities about Load Balancing:
  - Load balancers **can use session affinity (sticky sessions)** to route subsequent requests from a client to the same backend instance, maintaining session context.
 
 Here you can find more about [Google Cloud Load Balancing](https://cloud.google.com/load-balancing/docs?hl=es-419)<br><br>
+
+<a name="gke"></a>
+## Google Kubernetes Engine (GKE)
+
+**Kubernetes is an open-source container orchestration platform that automates the deployment, scaling, and management of containerized applications.** GKE simplifies the process of deploying and managing Kubernetes clusters, making it easier for developers to run containerized applications in a production environment.
+
+ - **Abstracts the underlying infrastructure and handles many of the operational aspects** of managing Kubernetes clusters.
+ - **Leverages containers to package applications and their dependencies**, making it easier to ensure consistency across different environments and simplifying the deployment process.
+ - **Allows you to define different node pools within** a cluster with varying machine types, sizes, and configurations.
+ - **Google Container Registry allows you to store and manage Docker container images.**
+ - **With Anthos, Google's hybrid and multi-cloud platform, you can manage GKE clusters across on-premises, Google Cloud, and other cloud providers from a single dashboard.**
+ - GKE **can automatically detect and repair unhealthy nodes**, ensuring that your applications continue running without manual intervention.
+ - 
+Here you can find more about [Google Kubernetes Engine (GKE)](https://cloud.google.com/kubernetes-engine/docs?hl=es-419)<br><br>

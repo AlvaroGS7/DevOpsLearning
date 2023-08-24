@@ -132,3 +132,20 @@ Here you can find more about [Google Cloud Load Balancing](https://cloud.google.
  - GKE **can automatically detect and repair unhealthy nodes**, ensuring that your applications continue running without manual intervention.
 
 Here you can find more about [Google Kubernetes Engine (GKE)](https://cloud.google.com/kubernetes-engine/docs?hl=es-419)<br><br>
+
+<a name="cloud-storage"></a>
+## Google Cloud Storage
+
+**Allows you to store and retrieve a wide variety of data, ranging from small files to large datasets, in a highly available and secure manner.** Is versatile and widely used for various purposes, including backup and recovery, data archival, serving static website content, sharing large datasets, and more.
+
+ - **Uses an object storage model**, where data is organized into containers called "buckets".
+ - Buckets and objects within Google Cloud Storage **are accessible from anywhere on the internet**, making it suitable for serving content to users globally.
+ - **Is designed for high durability**, ensuring that your data is redundantly stored across multiple locations.
+ - **Offers different storage classes to accommodate various use cases and access patterns.**
+ - **You can set up lifecycle policies to automatically transition objects between storage classes** or delete them after a specified period.
+ - **Access to Google Cloud Storage objects and buckets is controlled through Identity and Access Management (IAM) policies.**
+ - **Offers encryption at rest to safeguard your data.**
+ - **You can access your Google Cloud Storage data through the Google Cloud Console**, command-line tools, RESTful APIs, and client libraries in various programming languages.
+
+Here you can find more about [Google Cloud Storage)](https://cloud.google.com/storage/docs?hl=es-419)<br><br>
+

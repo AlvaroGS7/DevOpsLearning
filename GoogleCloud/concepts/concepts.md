@@ -130,5 +130,5 @@ Here you can find more about [Google Cloud Load Balancing](https://cloud.google.
  - **Google Container Registry allows you to store and manage Docker container images.**
  - **With Anthos, Google's hybrid and multi-cloud platform, you can manage GKE clusters across on-premises, Google Cloud, and other cloud providers from a single dashboard.**
  - GKE **can automatically detect and repair unhealthy nodes**, ensuring that your applications continue running without manual intervention.
- - 
+
 Here you can find more about [Google Kubernetes Engine (GKE)](https://cloud.google.com/kubernetes-engine/docs?hl=es-419)<br><br>

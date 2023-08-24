@@ -71,12 +71,12 @@ Google Cloud Endpoints helps developers **create, deploy, protect, and monitor A
 
 **Helps streamline the process of developing, deploying, and managing APIs**, allowing developers to focus more on building features and functionality for their applications.
 
- - Allows you to design, deploy, and manage APIs using the OpenAPI Specification (OAS), formerly known as Swagger.
- - Supports various authentication methods, including Google Identity Platform, Firebase Authentication, and API keys.
- - Makes it easy to deploy your API to Google Cloud using Google Kubernetes Engine (GKE) or App Engine standard environment.
- - You can monitor your API's usage and performance through Google Cloud's monitoring and logging tools.
+ - Allows you to **design, deploy, and manage APIs using the OpenAPI Specification (OAS)**, formerly known as **Swagger.**
+ - **Supports various authentication methods**, including Google Identity Platform, Firebase Authentication, and API keys.
+ - Makes it easy to deploy your API to Google Cloud using Google *Kubernetes Engine (GKE) or App Engine* standard environment.
+ - You can **monitor your API's usage and performance** through Google Cloud's monitoring and logging tools.
  - Integrates with Google Cloud's API analytics service, which provides insights into your API's usage patterns, user engagement, and other relevant metrics.
- - Generates client libraries for various programming languages, making it easier for developers to integrate and use your API in their applications.
- - You can also implement custom authentication using bearer tokens for scenarios that require more advanced authentication mechanisms.
+ - **Generates client libraries for various programming languages**, making it easier for developers to integrate and use your API in their applications.
+ - **You can also implement custom authentication** using bearer tokens for scenarios that require more advanced authentication mechanisms.
 
 Here you can find more about [Google Cloud Endpoints](https://cloud.google.com/endpoints/docs?hl=es-419)<br><br>

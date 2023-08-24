@@ -80,3 +80,20 @@ Google Cloud Endpoints helps developers **create, deploy, protect, and monitor A
  - **You can also implement custom authentication** using bearer tokens for scenarios that require more advanced authentication mechanisms.
 
 Here you can find more about [Google Cloud Endpoints](https://cloud.google.com/endpoints/docs?hl=es-419)<br><br>
+
+
+<a name="compute-engine"></a>
+## Compute Engine
+
+**Provides virtual machine (VM) instances for running applications.** It's an Infrastructure as a Service (IaaS) offering that allows you to create and manage virtual machines in the Google Cloud environment. Widely used for a variety of use cases, including **web hosting, application deployment, data processing, machine learning**, and more.
+
+ - **Enables you to create, customize, and manage virtual machines** that run on Google's infrastructure.
+ - You can **quickly scale your virtual machine instances up or down** based on your application's demands.
+ - Provides a **range of predefined machine types** optimized for various use cases, such as general-purpose computing, memory-intensive applications, and high-performance computing.
+ - Virtual machine instances on Compute Engine **can be attached to persistent disks for storing data.**
+ - You can use **predefined images** provided by Google or create custom images to use as templates for your VM instances
+ - Offers networking features like **Virtual Private Cloud (VPC), load balancing, and firewalls.**
+ - In addition to general-purpose VMs, Compute Engine **offers instances with GPU (Graphics Processing Unit) and TPU (Tensor Processing Unit) accelerators.**
+ - Offers the option of **sole tenancy**, where you can have dedicated physical servers for your VM instances.
+
+Here you can find more about [Google Cloud Compute Engine](https://cloud.google.com/compute/docs?hl=es-419)<br><br>

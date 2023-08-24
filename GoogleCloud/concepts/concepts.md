@@ -28,7 +28,7 @@
 -   **2.20 -** [Cloud Spanner](#cloud-spanner)
 -   **2.21 -** [Persistent Disk](#persistent-disk)
 -   **2.22 -** [Cloud IoT Core](#cloud-iot-core)
-
+<br><br>
 # What is Google Cloud Platform (GCP)
 
 GCP furnishes a **robust foundation for computing power, storage, networking, and databases**. This platform facilitates the effortless creation, deployment, and management of applications through its globally distributed network of data centers.
@@ -45,7 +45,7 @@ The scalability, dependability, and cost-efficiency of GCP position it as an app
   
 In this section, I'll introduce you to some of the **fundamental concepts within Google Cloud Platform (GCP)**, which are essential for comprehending its core components and operational capabilities. These concepts lay the groundwork for effectively building and managing your cloud resources.
 
-For further assistance and in-depth information, you can refer to the **official documentation** available [here](https://cloud.google.com/docs).
+For further assistance and in-depth information, you can refer to the **official documentation** available [here](https://cloud.google.com/docs).<br><br>
 
 <a name="iam"></a>
 ## IAM (Identity and Access Management)

@@ -229,3 +229,20 @@ Here's some features about Google Cloud Functions:
 
 Here you can find more about [Google Cloud Functions](https://cloud.google.com/functions/docs?hl=es-419)<br><br>
 
+<a name="cloud-composer"></a>
+## Google Cloud Composer
+**Workflow orchestration service built on Apache Airflow**, an open-source platform designed for authoring, scheduling, and monitoring complex data workflows. Cloud Composer **enables you to create, schedule, and manage workflows** that involve tasks like data processing, ETL (Extract, Transform, Load), and machine learning.
+
+**Mostly useful for teams and organizations that need to orchestrate complex data workflows across various GCP services.**
+
+ - **Allows you to automate workflows** by defining tasks and their dependencies in a directed acyclic graph (DAG) format.
+ - **Google Cloud takes care of scaling, patching, and maintenance**, allowing you to focus on building workflows.
+ - **Workflows in Composer are defined using Python scripts.**
+ - **Composer provides a JupyterLab-based environment** for interactive exploration and development of your workflows.
+ - **Handles version upgrades of the underlying Apache Airflow.**
+ - **XComs (short for cross-communication)** in Apache Airflow allow you to share small amounts of data between tasks within a DAG.
+ - **Composer uses the Cloud Storage bucket to serialize and store DAG files**, this enables easier DAG versioning and management.
+ - Using techniques like loops and conditionals in your DAG definition, you can **dynamically generate tasks based on runtime conditions.**
+
+Here you can find more about [Google Cloud Composer](https://cloud.google.com/composer/docs?hl=es-419)<br><br>
+

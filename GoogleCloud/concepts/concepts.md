@@ -214,7 +214,7 @@ Powerful tool for building event-driven, serverless applications and workflows. 
 	-   **Cloud Pub/Sub:** React to messages published to a pub/sub topic.
 	-   **HTTP:** Create HTTP-triggered functions to respond to HTTP requests.
 	-   **Firestore:** Trigger functions based on changes in Firestore documents.
-	-   **Firebase Authentication:** Trigger functions when users are authenticated or their profiles are updated.<br>
+	-   **Firebase Authentication:** Trigger functions when users are authenticated or their profiles are updated.<br><br>
 
  -  **You don't need to manage servers or infrastructure.**
  - **Supports multiple programming languages**, including *Node.js, Python, Go, and Java.* This flexibility allows you to use the language you're most comfortable with.

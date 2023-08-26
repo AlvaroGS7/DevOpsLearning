@@ -149,3 +149,22 @@ Here you can find more about [Google Kubernetes Engine (GKE)](https://cloud.goog
 
 Here you can find more about [Google Cloud Storage)](https://cloud.google.com/storage/docs?hl=es-419)<br><br>
 
+<a name="cloud-cdn"></a>
+## Google Cloud CDN
+Google Cloud CDN (**Content Delivery Network**) aims to enhance the performance, reliability, and scalability of your applications by **delivering content and assets to users from globally distributed edge servers.** 
+
+CDNs are **designed to reduce latency and improve load times for websites and applications** by caching content closer to the user, thereby reducing the distance data has to travel.
+
+It's particularly **useful for websites and services with a global user base**, where reducing latency and improving load times are critical factors in providing a good user experience.
+
+ - **Caches content at these edge locations**, storing copies of your assets like images, videos, stylesheets, and more.
+ - When a user requests content, the CDN **delivers it from the closest edge location**, minimizing latency and network congestion.
+ - While traditional CDNs are excellent for caching static content, Google Cloud CDN is also **capable of accelerating dynamic content.**
+ - Provides **SSL/TLS termination at the edge.**
+ - Uses **Anycast IP addresses**, which means that multiple edge locations share the same IP address.
+ - **Supports the modern HTTP/2 protocol.**
+ - Additionally, it **supports Brotli compression,** which is a more efficient compression algorithm for reducing the size of web assets. 
+ - **Allows you to set up cache invalidation rules based on URL patterns.**
+
+Here you can find more about [Google Cloud CDN)](https://cloud.google.com/cdn/docs?hl=es-419)<br><br>
+

@@ -205,3 +205,25 @@ Here you can find more about [Google Cloud SQL)](https://cloud.google.com/sql/do
 
 Here you can find more about [Google Cloud Dataflow)](https://cloud.google.com/dataflow/docs?hl=es-419)<br><br>
 
+<a name="cloud-functions"></a>
+## Google Cloud Functions
+Serverless compute service that allows developers to build and deploy event-driven functions that automatically scale as needed without requiring the management of underlying infrastructure.
+
+Powerful tool for building event-driven, serverless applications and workflows. It's particularly useful for tasks that need to respond quickly to changes in data, perform lightweight processing, and integrate with other Google Cloud services.
+
+ - Can be triggered by events from various sources, such as:
+	-   **Cloud Storage:** Respond to changes in objects within a storage bucket.
+	-   **Cloud Pub/Sub:** React to messages published to a pub/sub topic.
+	-   **HTTP:** Create HTTP-triggered functions to respond to HTTP requests.
+	-   **Firestore:** Trigger functions based on changes in Firestore documents.
+	-   **Firebase Authentication:** Trigger functions when users are authenticated or their profiles are updated.
+
+ -  **You don't need to manage servers or infrastructure.**
+ - **Supports multiple programming languages**, including *Node.js, Python, Go, and Java.* This flexibility allows you to use the language you're most comfortable with.
+ - Cloud Functions are **stateless by design**, meaning they don't store persistent state.
+ - You can configure your Cloud Functions to **respond to specific event conditions.**
+ - By default, **limits the number of concurrent invocations per function** to ensure efficient resource utilization.
+ - Cloud Functions can be **categorized as background functions (triggered by events) or HTTP functions (triggered by HTTP requests).**
+
+Here you can find more about [Google Cloud Functions)](https://cloud.google.com/functions/docs?hl=es-419)<br><br>
+

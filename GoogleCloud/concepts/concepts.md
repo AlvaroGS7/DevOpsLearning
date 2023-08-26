@@ -173,10 +173,10 @@ Here you can find more about [Google Cloud CDN)](https://cloud.google.com/cdn/do
 Managed **relational database service** that **allows you to set up, operate, and scale relational databases** without the need to manage the underlying infrastructure.
 
 **Simplifies the management of relational databases**, making it a suitable choice for various use cases, from small applications to large-scale projects that require high availability, scalability, and security.
- - Supports multiple database engines, including:
+- Supports multiple database engines, including:
 	-   **MySQL:** A popular open-source RDBMS.
 	-   **PostgreSQL:** A powerful open-source relational database system.
-	-   **SQL Server:** A Microsoft-developed RDBMS.
+	-   **SQL Server:** A Microsoft-developed RDBMS.<br>
 
 - Google **handles many of the routine database management tasks** such as patch management, backups, replication, failover, and scaling.
 - **Performs automated backups** of your database.
@@ -208,13 +208,13 @@ Here you can find more about [Google Cloud Dataflow)](https://cloud.google.com/d
 ## Google Cloud Functions
 Serverless compute service that allows developers to build and deploy event-driven functions that automatically scale as needed without requiring the management of underlying infrastructure.
 
-Powerful tool for building event-driven, serverless applications and workflows. It's particularly useful for tasks that need to respond quickly to changes in data, perform lightweight processing, and integrate with other Google Cloud services.
+Powerful tool for building event-driven, serverless applications and workflows. It's particularly useful for tasks that need to respond quickly to changes in data, perform lightweight processing, and integrate with other Google Cloud services.<br>
  - Can be triggered by events from various sources, such as:
 	-   **Cloud Storage:** Respond to changes in objects within a storage bucket.
 	-   **Cloud Pub/Sub:** React to messages published to a pub/sub topic.
 	-   **HTTP:** Create HTTP-triggered functions to respond to HTTP requests.
 	-   **Firestore:** Trigger functions based on changes in Firestore documents.
-	-   **Firebase Authentication:** Trigger functions when users are authenticated or their profiles are updated.
+	-   **Firebase Authentication:** Trigger functions when users are authenticated or their profiles are updated.<br>
 
  -  **You don't need to manage servers or infrastructure.**
  - **Supports multiple programming languages**, including *Node.js, Python, Go, and Java.* This flexibility allows you to use the language you're most comfortable with.

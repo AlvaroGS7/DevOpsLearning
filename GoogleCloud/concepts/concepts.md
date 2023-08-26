@@ -168,3 +168,22 @@ It's particularly **useful for websites and services with a global user base**, 
 
 Here you can find more about [Google Cloud CDN)](https://cloud.google.com/cdn/docs?hl=es-419)<br><br>
 
+<a name="cloud-sql"></a>
+## Google Cloud SQL
+Managed **relational database service** that **allows you to set up, operate, and scale relational databases** without the need to manage the underlying infrastructure.
+
+**Simplifies the management of relational databases**, making it a suitable choice for various use cases, from small applications to large-scale projects that require high availability, scalability, and security.
+
+ - Google **handles many of the routine database management tasks** such as patch management, backups, replication, failover, and scaling.
+ - Supports multiple database engines, including:
+	-   **MySQL:** A popular open-source RDBMS.
+	-   **PostgreSQL:** A powerful open-source relational database system.
+	-   **SQL Server:** A Microsoft-developed RDBMS.
+- **Performs automated backups** of your database.
+- **Read replicas** allow you to offload read traffic from the primary instance.
+- Enables **point-in-time recovery**, allowing you to restore your database to a specific point in time.
+- **Lets you modify database engine behavior using flags.**
+- Offers a **serverless option for MySQL databases.**
+
+Here you can find more about [Google Cloud SQL)](https://cloud.google.com/sql/docs?hl=es-419)<br><br>
+

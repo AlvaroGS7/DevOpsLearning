@@ -147,7 +147,7 @@ Here you can find more about [Google Kubernetes Engine (GKE)](https://cloud.goog
  - **Offers encryption at rest to safeguard your data.**
  - **You can access your Google Cloud Storage data through the Google Cloud Console**, command-line tools, RESTful APIs, and client libraries in various programming languages.
 
-Here you can find more about [Google Cloud Storage)](https://cloud.google.com/storage/docs?hl=es-419)<br><br>
+Here you can find more about [Google Cloud Storage](https://cloud.google.com/storage/docs?hl=es-419)<br><br>
 
 <a name="cloud-cdn"></a>
 ## Google Cloud CDN
@@ -166,7 +166,7 @@ It's particularly **useful for websites and services with a global user base**, 
  - Additionally, it **supports Brotli compression,** which is a more efficient compression algorithm for reducing the size of web assets. 
  - **Allows you to set up cache invalidation rules based on URL patterns.**
 
-Here you can find more about [Google Cloud CDN)](https://cloud.google.com/cdn/docs?hl=es-419)<br><br>
+Here you can find more about [Google Cloud CDN](https://cloud.google.com/cdn/docs?hl=es-419)<br><br>
 
 <a name="cloud-sql"></a>
 ## Google Cloud SQL
@@ -176,7 +176,9 @@ Managed **relational database service** that **allows you to set up, operate, an
 - Supports multiple database engines, including:
 	-   **MySQL:** A popular open-source RDBMS.
 	-   **PostgreSQL:** A powerful open-source relational database system.
-	-   **SQL Server:** A Microsoft-developed RDBMS.<br>
+	-   **SQL Server:** A Microsoft-developed RDBMS.
+
+Here's some features about Google Cloud SQL:
 
 - Google **handles many of the routine database management tasks** such as patch management, backups, replication, failover, and scaling.
 - **Performs automated backups** of your database.
@@ -185,7 +187,7 @@ Managed **relational database service** that **allows you to set up, operate, an
 - **Lets you modify database engine behavior using flags.**
 - Offers a **serverless option for MySQL databases.**
 
-Here you can find more about [Google Cloud SQL)](https://cloud.google.com/sql/docs?hl=es-419)<br><br>
+Here you can find more about [Google Cloud SQL](https://cloud.google.com/sql/docs?hl=es-419)<br><br>
 
 <a name="dataflow"></a>
 ## Google Cloud Dataflow
@@ -202,7 +204,7 @@ Here you can find more about [Google Cloud SQL)](https://cloud.google.com/sql/do
  - **Flex Templates** allow you to package your Dataflow pipeline into a reusable template, making it easier to deploy the same pipeline with different configurations.
  - **Supports stateful processing**, which enables you to maintain and update state information across data elements in your pipeline.
 
-Here you can find more about [Google Cloud Dataflow)](https://cloud.google.com/dataflow/docs?hl=es-419)<br><br>
+Here you can find more about [Google Cloud Dataflow](https://cloud.google.com/dataflow/docs?hl=es-419)<br><br>
 
 <a name="cloud-functions"></a>
 ## Google Cloud Functions
@@ -214,7 +216,9 @@ Powerful tool for building event-driven, serverless applications and workflows. 
 	-   **Cloud Pub/Sub:** React to messages published to a pub/sub topic.
 	-   **HTTP:** Create HTTP-triggered functions to respond to HTTP requests.
 	-   **Firestore:** Trigger functions based on changes in Firestore documents.
-	-   **Firebase Authentication:** Trigger functions when users are authenticated or their profiles are updated.<br><br>
+	-   **Firebase Authentication:** Trigger functions when users are authenticated or their profiles are updated.
+
+Here's some features about Google Cloud Functions:
 
  -  **You don't need to manage servers or infrastructure.**
  - **Supports multiple programming languages**, including *Node.js, Python, Go, and Java.* This flexibility allows you to use the language you're most comfortable with.
@@ -223,5 +227,5 @@ Powerful tool for building event-driven, serverless applications and workflows. 
  - By default, **limits the number of concurrent invocations per function** to ensure efficient resource utilization.
  - Cloud Functions can be **categorized as background functions (triggered by events) or HTTP functions (triggered by HTTP requests).**
 
-Here you can find more about [Google Cloud Functions)](https://cloud.google.com/functions/docs?hl=es-419)<br><br>
+Here you can find more about [Google Cloud Functions](https://cloud.google.com/functions/docs?hl=es-419)<br><br>
 

@@ -187,3 +187,20 @@ Managed **relational database service** that **allows you to set up, operate, an
 
 Here you can find more about [Google Cloud SQL)](https://cloud.google.com/sql/docs?hl=es-419)<br><br>
 
+<a name="dataflow"></a>
+## Google Cloud Dataflow
+**Stream and batch data processing service** that enables developers to **process and analyze data in real-time and in batch,** making it easier to build data pipelines for various use cases such as *ETL (Extract, Transform, Load), analytics, and machine learning.*
+
+**Allows developers to focus on their data processing logic, simplifies the development of data processing pipelines** by abstracting infrastructure management, providing a unified programming model, and supporting both stream and batch processing.
+
+ - **Supports both stream processing (real-time) and batch processing (batch-oriented)** paradigms within the same programming model.
+ - Is built on top of the **Apache Beam open-source project.**
+ - **Automatically scales resources** based on the volume of data and the complexity of your processing logic.
+ - **Offers a serverless execution environment** where you don't need to worry about provisioning or managing infrastructure.
+ - **Provides built-in support for windowing and time-based processing.**
+ - **Includes connectors to various data sources and sinks**, including *Google Cloud Storage, BigQuery, Pub/Sub,* and more.
+ - **Flex Templates** allow you to package your Dataflow pipeline into a reusable template, making it easier to deploy the same pipeline with different configurations.
+ - **Supports stateful processing**, which enables you to maintain and update state information across data elements in your pipeline.
+
+Here you can find more about [Google Cloud Dataflow)](https://cloud.google.com/dataflow/docs?hl=es-419)<br><br>
+

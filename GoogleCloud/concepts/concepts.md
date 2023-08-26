@@ -173,13 +173,12 @@ Here you can find more about [Google Cloud CDN)](https://cloud.google.com/cdn/do
 Managed **relational database service** that **allows you to set up, operate, and scale relational databases** without the need to manage the underlying infrastructure.
 
 **Simplifies the management of relational databases**, making it a suitable choice for various use cases, from small applications to large-scale projects that require high availability, scalability, and security.
-
  - Supports multiple database engines, including:
 	-   **MySQL:** A popular open-source RDBMS.
 	-   **PostgreSQL:** A powerful open-source relational database system.
 	-   **SQL Server:** A Microsoft-developed RDBMS.
 
- - Google **handles many of the routine database management tasks** such as patch management, backups, replication, failover, and scaling.
+- Google **handles many of the routine database management tasks** such as patch management, backups, replication, failover, and scaling.
 - **Performs automated backups** of your database.
 - **Read replicas** allow you to offload read traffic from the primary instance.
 - Enables **point-in-time recovery**, allowing you to restore your database to a specific point in time.
@@ -210,7 +209,6 @@ Here you can find more about [Google Cloud Dataflow)](https://cloud.google.com/d
 Serverless compute service that allows developers to build and deploy event-driven functions that automatically scale as needed without requiring the management of underlying infrastructure.
 
 Powerful tool for building event-driven, serverless applications and workflows. It's particularly useful for tasks that need to respond quickly to changes in data, perform lightweight processing, and integrate with other Google Cloud services.
-
  - Can be triggered by events from various sources, such as:
 	-   **Cloud Storage:** Respond to changes in objects within a storage bucket.
 	-   **Cloud Pub/Sub:** React to messages published to a pub/sub topic.

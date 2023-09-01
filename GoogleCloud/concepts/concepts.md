@@ -19,15 +19,7 @@
 -   **2.11 -** [Cloud Composer](#cloud-composer)
 -   **2.12 -** [Pub/Sub](#pub-sub)
 -   **2.13 -** [Datastream](#datastream)
--   **2.14 -** [GKE Autopilot](#gke-autopilot)
--   **2.15 -** [Cloud Monitoring](#cloud-monitoring)
--   **2.16 -** [Cloud Pub/Sub Lite](#pub-sub-lite)
--   **2.17 -** [AI Platform](#ai-platform)
--   **2.18 -** [Cloud Audit Logs](#cloud-audit-logs)
--   **2.19 -** [Cloud Security Command Center](#security-command-center)
--   **2.20 -** [Cloud Spanner](#cloud-spanner)
--   **2.21 -** [Persistent Disk](#persistent-disk)
--   **2.22 -** [Cloud IoT Core](#cloud-iot-core)
+
 <br><br>
 # What is Google Cloud Platform (GCP)
 

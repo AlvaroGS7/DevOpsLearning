@@ -246,3 +246,18 @@ Here you can find more about [Google Cloud Functions](https://cloud.google.com/f
 
 Here you can find more about [Google Cloud Composer](https://cloud.google.com/composer/docs?hl=es-419)<br><br>
 
+<a name="pub-sub"></a>
+## Pub/Sub
+
+Messaging service that enables you to build event-driven systems, real-time analytics, and other distributed applications that require reliable, scalable, and asynchronous communication between independent components. It abstracts the underlying infrastructure complexity, making it easier for developers to build scalable and resilient systems. It is part of Google Cloud's broader suite of cloud computing and data analytics services.
+
+ - Publishers send messages to topics, and subscribers receive messages from those topics.
+ - A topic is a named resource to which messages can be sent by publishers.
+ - Subscriptions represent the stream of messages from a single, specific topic.
+ - Subscribers can receive messages through either push or pull mechanisms. 
+	 - In push mode, Pub/Sub pushes messages to a specified endpoint (typically a web service or Cloud Function). 
+	 - In pull mode, subscribers poll Pub/Sub to retrieve messages.
+ - Retains messages for a configurable period (known as the message retention duration), allowing subscribers to replay events within a specific time frame, even if they initially missed them.
+
+Here you can find more about [Google Cloud Pub/Sub](https://cloud.google.com/pubsub/docs?hl=es-419)<br><br>
+

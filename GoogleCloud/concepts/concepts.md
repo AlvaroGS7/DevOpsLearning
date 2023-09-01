@@ -261,3 +261,21 @@ Messaging service that enables you to build event-driven systems, real-time anal
 
 Here you can find more about [Google Cloud Pub/Sub](https://cloud.google.com/pubsub/docs?hl=es-419)<br><br>
 
+<a name="datastream"></a>
+## Datastream
+Google Cloud Datastream is a serverless, fully-managed change data capture (CDC) and replication service that helps you synchronize your data reliably and with minimal latency.
+
+Replication posibilities:
+-   Can replicate data from your **transactional databases to data warehouses** and analytics platforms in real time, so you can get insights from your data as soon as it changes.
+-   Can replicate your data to a **secondary location**, so you can recover from a disaster quickly and easily.
+-   Can replicate data **between on-premises and cloud-based systems**, so you can build a hybrid cloud architecture.
+
+And here's some useful facts:
+-   You don't need to manage any infrastructure or servers. Datastream takes care of everything for you.
+-   Is a fully managed service, so you don't need to worry about the underlying infrastructure.
+-   Can replicate data with low latency, so you can get insights from your data as soon as it changes.
+-   Can scale to meet your needs, so you can replicate as much data as you need.
+-   Uses strong encryption to protect your data in transit and at rest.
+
+Here you can find more about [Google Cloud Datastream](https://cloud.google.com/datastream/docs?hl=es-419)<br><br>
+

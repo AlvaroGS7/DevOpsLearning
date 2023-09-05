@@ -178,7 +178,7 @@ Also called **Amazon Relational Database Service**, is a **managed database serv
  
 <a name="glue"></a>
 ## Glue
-**A fully managed extract, transform, and load (ETL) service** pthat enables you to prepare and transform your data for analytics, data warehousing, machine learning, and other data-driven tasks.
+**A fully managed extract, transform, and load (ETL) service** that enables you to prepare and transform your data for analytics, data warehousing, machine learning, and other data-driven tasks.
 
  - Provides a **centralized metadata repository called the Data Catalog.**
  - Offers a **visual interface and built-in ETL jobs** that allow you to transform and clean your data.
